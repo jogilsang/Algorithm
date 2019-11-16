@@ -2,255 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f1bcd3-7803-4620-a133-72f34de24d04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backjoon/backjoon_5_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backjoon/backjoon_5_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backjoon/backjoon_5_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backjoon/backjoon_5_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backjoon/backjoon_5_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backjoon/backjoon_5_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backjoon/backjoon_5_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/1차 1급 10_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/1차 1급 1_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/1차 1급 2_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/1차 1급 3_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/1차 1급 4_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/1차 1급 5_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/1차 1급 6_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/1차 1급 7_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/1차 1급 8_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/1차 1급 9_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/2차 1급 10_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/2차 1급 1_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/2차 1급 2_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/2차 1급 3_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/2차 1급 4_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/2차 1급 5_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/2차 1급 6_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/2차 1급 7_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/2차 1급 8_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/2차 1급 9_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/3차 1급 10_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/3차 1급 1_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/3차 1급 2_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/3차 1급 3_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/3차 1급 4_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/3차 1급 5_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/3차 1급 6_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/3차 1급 7_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/3차 1급 8_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/3차 1급 9_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/4차 1급 10_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/4차 1급 1_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/4차 1급 2_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/4차 1급 3_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/4차 1급 4_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/4차 1급 5_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/4차 1급 6_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/4차 1급 7_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/4차 1급 8_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/4차 1급 9_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/5차 1급 10_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/5차 1급 1_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/5차 1급 2_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/5차 1급 3_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/5차 1급 4_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/5차 1급 5_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/5차 1급 6_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/5차 1급 7_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/5차 1급 8_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/5차 1급 9_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/6차 1급 10_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/6차 1급 1_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/6차 1급 2_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/6차 1급 3_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/6차 1급 4_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/6차 1급 5_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/6차 1급 6_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/6차 1급 7_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/6차 1급 8_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 문제/1급 자바 문제/6차 1급 9_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/1차 1급 10_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/1차 1급 1_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/1차 1급 2_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/1차 1급 3_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/1차 1급 4_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/1차 1급 5_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/1차 1급 6_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/1차 1급 7_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/1차 1급 8_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/1차 1급 9_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/2차 1급 10_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/2차 1급 1_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/2차 1급 2_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/2차 1급 3_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/2차 1급 4_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/2차 1급 5_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/2차 1급 6_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/2차 1급 7_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/2차 1급 8_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/2차 1급 9_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/3차 1급 10_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/3차 1급 1_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/3차 1급 2_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/3차 1급 3_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/3차 1급 4_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/3차 1급 5_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/3차 1급 6_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/3차 1급 7_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/3차 1급 8_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/3차 1급 9_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/4차 1급 10_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/4차 1급 1_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/4차 1급 2_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/4차 1급 3_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/4차 1급 4_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/4차 1급 5_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/4차 1급 6_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/4차 1급 7_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/4차 1급 8_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/4차 1급 9_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/5차 1급 10_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/5차 1급 1_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/5차 1급 2_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/5차 1급 3_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/5차 1급 4_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/5차 1급 5_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/5차 1급 6_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/5차 1급 7_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/5차 1급 8_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/5차 1급 9_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/6차 1급 10_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/6차 1급 1_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/6차 1급 2_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/6차 1급 3_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/6차 1급 4_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/6차 1급 5_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/6차 1급 6_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/6차 1급 7_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/6차 1급 8_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/1급 자바 정답/1급 자바 정답/6차 1급 9_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/1차 2급 10_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/1차 2급 1_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/1차 2급 2_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/1차 2급 3_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/1차 2급 4_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/1차 2급 5_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/1차 2급 6_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/1차 2급 7_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/1차 2급 8_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/1차 2급 9_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/2차 2급 10_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/2차 2급 1_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/2차 2급 2_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/2차 2급 3_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/2차 2급 4_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/2차 2급 5_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/2차 2급 6_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/2차 2급 7_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/2차 2급 8_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/2차 2급 9_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/3차 2급 10_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/3차 2급 1_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/3차 2급 2_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/3차 2급 3_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/3차 2급 4_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/3차 2급 5_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/3차 2급 6_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/3차 2급 7_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/3차 2급 8_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/3차 2급 9_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/4차 2급 10_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/4차 2급 1_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/4차 2급 2_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/4차 2급 3_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/4차 2급 4_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/4차 2급 5_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/4차 2급 6_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/4차 2급 7_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/4차 2급 8_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/4차 2급 9_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/5차 2급 10_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/5차 2급 1_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/5차 2급 2_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/5차 2급 3_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/5차 2급 4_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/5차 2급 5_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/5차 2급 6_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/5차 2급 7_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/5차 2급 8_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/5차 2급 9_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/6차 2급 10_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/6차 2급 1_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/6차 2급 2_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/6차 2급 3_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/6차 2급 4_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/6차 2급 5_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/6차 2급 6_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/6차 2급 7_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/6차 2급 8_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 문제/2급 자바 문제/6차 2급 9_initial_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/1차 2급 10_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/1차 2급 1_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/1차 2급 2_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/1차 2급 3_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/1차 2급 4_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/1차 2급 5_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/1차 2급 6_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/1차 2급 7_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/1차 2급 8_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/1차 2급 9_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/2차 2급 10_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/2차 2급 1_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/2차 2급 2_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/2차 2급 3_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/2차 2급 4_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/2차 2급 5_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/2차 2급 6_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/2차 2급 7_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/2차 2급 8_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/2차 2급 9_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/3차 2급 10_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/3차 2급 1_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/3차 2급 2_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/3차 2급 3_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/3차 2급 4_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/3차 2급 5_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/3차 2급 6_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/3차 2급 7_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/3차 2급 8_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/3차 2급 9_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/4차 2급 10_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/4차 2급 1_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/4차 2급 2_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/4차 2급 3_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/4차 2급 4_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/4차 2급 5_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/4차 2급 6_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/4차 2급 7_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/4차 2급 8_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/4차 2급 9_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/5차 2급 10_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/5차 2급 1_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/5차 2급 2_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/5차 2급 3_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/5차 2급 4_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/5차 2급 5_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/5차 2급 6_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/5차 2급 7_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/5차 2급 8_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/5차 2급 9_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/6차 2급 10_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/6차 2급 1_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/6차 2급 2_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/6차 2급 3_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/6차 2급 4_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/6차 2급 5_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/6차 2급 6_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/6차 2급 7_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/6차 2급 8_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COSPro_YBM/2급 자바 정답/2급 자바 정답/6차 2급 9_solution_code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backjoon/backjoon_1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backjoon/backjoon_1_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backjoon/backjoon_5_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backjoon/backjoon_5_7.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -307,20 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.backjoon_5_6">
-    <configuration name="backjoon_5_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backjoon.backjoon_5_2" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.backjoon_5_7">
     <configuration name="backjoon_5_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backjoon.backjoon_5_3" />
       <module name="java" />
@@ -373,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="backjoon_5_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backjoon.backjoon_5_7" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backjoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.backjoon_5_7" />
         <item itemvalue="Application.backjoon_5_6" />
         <item itemvalue="Application.backjoon_5_5" />
         <item itemvalue="Application.backjoon_5_4" />
         <item itemvalue="Application.backjoon_5_3" />
-        <item itemvalue="Application.backjoon_5_2" />
       </list>
     </recent_temporary>
   </component>

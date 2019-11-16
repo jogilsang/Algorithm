@@ -2,7 +2,7 @@ package backjoon;
 
 import java.util.Scanner;
 
-public class backjoon_5_7 {
+public class backjoon_5_8 {
 
     public static void main(String[] args) {
 
@@ -10,11 +10,15 @@ public class backjoon_5_7 {
         int n = sc.nextInt();
         sc.nextLine(); // int와 String 사이 공백에러발생, 제거요망
 
+        // 입력값 index에 맞게 점수를 집어넣음
+
+        // 한 줄씩 평균을 넘는 학생들의 비율
+        float[] points = new float[n];
+
         // 입력값
         String[] arr = new String[n];
 
-        // 입력값 index에 맞게 점수를 집어넣음
-        int[] points = new int[n];
+
 
         for (int i = 0; i < n; i++) {
             // 문자열을 입력받음 (OOOOXXXXOOO)
