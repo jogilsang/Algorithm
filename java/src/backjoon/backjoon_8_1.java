@@ -7,21 +7,25 @@ public class backjoon_8_1 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int A = sc.nextInt(); // 1000
-        int B = sc.nextInt(); // 70
-        int C = sc.nextInt(); // 170
+        long A = sc.nextLong(); // 1000
+        long B = sc.nextLong(); // 70
+        long C = sc.nextLong(); // 170
 
         int n = 1;
 
+        // B가 C와 같으면, 손익분기점은 평생 넘을수없음
         if(B>=C) {
             System.out.println("-1");
             return;
         }
 
+        long minus = A;
+        long plus = 0 ;
+
         while(true){
 
-            int minus = A + (B * n) ;
-            int plus = C * n;
+            minus += B ;
+            plus += C ;
 
             if(plus > minus) {
                 System.out.println(n);
