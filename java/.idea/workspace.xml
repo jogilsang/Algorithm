@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f1bcd3-7803-4620-a133-72f34de24d04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../kotlin/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin/src/backjoon/kotlin/backjoon_8_1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backjoon/backjoon_10_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backjoon/backjoon_8_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backjoon/backjoon_8_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,9 +61,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.backjoon_7_10">
-    <configuration name="backjoon_7_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backjoon.backjoon_7_10" />
+  <component name="RunManager" selected="Application.backjoon_10_1">
+    <configuration name="backjoon_10_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backjoon.backjoon_10_1" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="backjoon_7_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backjoon.backjoon_7_5" />
+    <configuration name="backjoon_7_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backjoon.backjoon_7_10" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.backjoon_10_1" />
         <item itemvalue="Application.backjoon_7_10" />
         <item itemvalue="Application.backjoon_7_8" />
         <item itemvalue="Application.backjoon_7_7" />
         <item itemvalue="Application.backjoon_8_1" />
-        <item itemvalue="Application.backjoon_7_5" />
       </list>
     </recent_temporary>
   </component>
