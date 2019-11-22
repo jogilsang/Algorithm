@@ -1,6 +1,6 @@
 package backjoon.kotlin
 // kotlin
-// 2019-11-22, time : 16:57, solved by gilsang
+// 2019-11-23, time : 16:57, solved by gilsang
 fun main(args: Array<String>) {
 
     var n = readLine().toString().toInt()
