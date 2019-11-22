@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92a68e97-b164-4dbe-aaeb-86bb645c66f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java/src/backjoon/backjoon_3_9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_11_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_11_3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backjoon/kotlin/backjoon_3_9.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,23 +26,24 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/backjoon/kotlin" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="book_kotlin_200" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\kotlin\book_kotlin_200\src\backjoon" />
-      <recent name="C:\kotlin\book_kotlin_200\src\ex_func_in_another_package" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\kotlin\book_kotlin_200\src\backjoon\kotlin" />
       <recent name="C:\kotlin\book_kotlin_200\src\book_kotlin_200" />
       <recent name="C:\kotlin\book_kotlin_200\src\backjoon" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="book_kotlin_200" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\algorithm\kotlin\src\backjoon\kotlin" />
+      <recent name="C:\kotlin\book_kotlin_200\src\backjoon" />
+      <recent name="C:\kotlin\book_kotlin_200\src\ex_func_in_another_package" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -59,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.backjoon.kotlin.Backjoon_8_1Kt">
+  <component name="RunManager" selected="Kotlin.backjoon.kotlin.Backjoon_3_9Kt">
     <configuration name="backjoon.kotlin.Backjoon_3_1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin" />
       <option name="VM_PARAMETERS" />
@@ -99,14 +98,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="backjoon.kotlin.Backjoon_4_3Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="backjoon.kotlin.Backjoon_3_9Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="backjoon.kotlin.Backjoon_4_3Kt" />
+      <option name="MAIN_CLASS_NAME" value="backjoon.kotlin.Backjoon_3_9Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.backjoon.kotlin.Backjoon_3_9Kt" />
         <item itemvalue="Kotlin.backjoon.kotlin.Backjoon_8_1Kt" />
         <item itemvalue="Kotlin.backjoon.kotlin.Backjoon_3_3Kt" />
         <item itemvalue="Kotlin.backjoon.kotlin.Backjoon_3_2Kt" />
         <item itemvalue="Kotlin.backjoon.kotlin.Backjoon_3_1Kt" />
-        <item itemvalue="Kotlin.backjoon.kotlin.Backjoon_4_3Kt" />
       </list>
     </recent_temporary>
   </component>
