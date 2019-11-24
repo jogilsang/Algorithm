@@ -1,9 +1,10 @@
 package quiz.backjoon;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
-public class backjoon_12_1 {
+public class backjoon_12_2 {
 
 
     public static void main(String[] args) {
@@ -16,18 +17,26 @@ public class backjoon_12_1 {
             return;
         }
 
-        int[] arr = new int[n];
+        ArrayList<Integer> arr = new ArrayList<>();
 
         for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
+            arr.add(sc.nextInt());
         }
 
-        Arrays.sort(arr);
+        Collections.sort(arr);
         printArr(arr);
 
     }
 
     public static void printArr(int[] arr) {
+        StringBuffer str = new StringBuffer();
+        for (int value : arr) {
+            str.append(value + "\n");
+        }
+        System.out.println(str);
+    }
+
+    public static void printArr(ArrayList<Integer> arr) {
         for (int value : arr) {
             System.out.println(value);
         }

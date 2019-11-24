@@ -2,7 +2,7 @@ package default_sort;
 
 public class BaseSort {
 
-    // TODO :  선택정렬
+    // TODO :  선택정렬 (AISC)
     public static void selectionSort(int[] arr) {
         selectionSort(arr,0);
     }
@@ -19,7 +19,33 @@ public class BaseSort {
         }
     }
 
-    // TODO : 버블 정렬
+    // TODO :  선택정렬 (DISC)
+    public static void selectionDISCSort(int[] arr) {
+
+        selectionDISCSort(arr, 0);
+    }
+
+
+    public static void selectionDISCSort(int[] arr, int start) {
+
+        if (start < arr.length - 1) {
+            int max_index = start;
+            for (int i = start; i < arr.length; i++) {
+                if (arr[i] > arr[max_index]) {
+                    max_index = i;
+                }
+            }
+            int temp = arr[max_index];
+            arr[max_index] = arr[start];
+            arr[start] = temp;
+            selectionDISCSort(arr, start + 1);
+
+        }
+    }
+
+
+
+    // TODO : 버블 정렬 (AISC)
     public static void bubbleSort(int[] arr) {
         bubbleSort(arr, arr.length -1);
     }
@@ -36,6 +62,54 @@ public class BaseSort {
         }
 
     }
+
+    // TODO : 2차원 버블정렬(AISC)
+
+    public static void bubbleSort(int[][] arr){
+        bubbleSort(arr, arr.length -1);
+    }
+
+    public static void bubbleSort(int[][] arr, int last){
+        if(last > 0) {
+            for(int i = 1 ; i <= last ; i++) {
+                // 이전 항이, 다음항보다 크다면 스왑
+                if(arr[i - 1][0] > arr[i][0]) {
+                    // x값 변경
+                    int temp = arr[i-1][0];
+                    arr[i-1][0] = arr[i][0];
+                    arr[i][0] = temp;
+
+                    // y값 변경
+                    temp = arr[i-1][1];
+                    arr[i-1][1] = arr[i][1];
+                    arr[i][1] = temp;
+                }
+                // 이전 항이 다음 항과 같다면
+                // 두번쨰 배열값을 비교해준다.
+                else if(arr[i - 1][0] == arr[i][0]){
+                    // y값이 크면 스왑
+                    if(arr[i-1][1] > arr[i][1]) {
+                        // x값 변경
+                        int temp = arr[i-1][0];
+                        arr[i-1][0] = arr[i][0];
+                        arr[i][0] = temp;
+
+                        // y값 변경
+                        temp = arr[i-1][1];
+                        arr[i-1][1] = arr[i][1];
+                        arr[i][1] = temp;
+                    }
+                    // y값이 같거나 작으면 스왑안함
+                    else {
+                        // pass
+                    }
+                }
+            }
+            bubbleSort(arr, last -1);
+        }
+    }
+
+
 
     // 배열과 인덱스 두 개가 주어졌을때 값을 바꿔줌
     public static void swap(int[] arr, int index1, int index2) {

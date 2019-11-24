@@ -3,7 +3,7 @@ package quiz.backjoon;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class backjoon_12_1 {
+public class backjoon_12_3 {
 
 
     public static void main(String[] args) {
@@ -28,9 +28,11 @@ public class backjoon_12_1 {
     }
 
     public static void printArr(int[] arr) {
+        StringBuffer str = new StringBuffer();
         for (int value : arr) {
-            System.out.println(value);
+            str.append(value + "\n");
         }
+        System.out.println(str);
     }
 
 }
