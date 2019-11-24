@@ -2,11 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92a68e97-b164-4dbe-aaeb-86bb645c66f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/backjoon/kotlin/backjoon_3_11.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/default_sort/BaseSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/default_sort/StudySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/default_sort/TestBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/default_sort/TestSelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_12_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/1차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/2차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/3차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/4차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/5차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/6차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/1차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/2차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/3차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/4차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/5차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/6차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_10_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_10_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_10_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_11_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_11_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_1_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_1_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_1_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_1_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_2_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_3_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_5_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_5_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_5_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_5_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_5_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_5_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_5_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_5_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_7_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_7_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_7_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_7_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_7_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_7_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_7_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_7_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/backjoon/backjoon_8_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/1차 1급 java언어description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/1차 1급 java언어description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/2차 1급 java언어description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/2차 1급 java언어description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/3차 1급 java언어description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/3차 1급 java언어description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/4차 1급 java언어description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/4차 1급 java언어description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/5차 1급 java언어description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/5차 1급 java언어description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/6차 1급 java언어description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/6차 1급 java언어description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/1차 2급 java언어description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/1차 2급 java언어description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/2차 2급 java언어description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/2차 2급 java언어description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/3차 2급 java언어description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/3차 2급 java언어description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/4차 2급 java언어description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/4차 2급 java언어description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/5차 2급 java언어description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/5차 2급 java언어description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/6차 2급 java언어description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/6차 2급 java언어description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_10_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_10_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_10_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_10_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_10_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_10_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_11_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_11_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_11_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_11_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_1_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_1_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_1_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_1_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_1_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_1_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_1_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_1_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_1_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_1_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_2_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_3_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_3_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_5_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_5_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_5_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_5_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_5_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_5_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_5_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_5_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_7_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_7_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_7_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_7_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_7_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_7_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_7_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_7_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/backjoon/backjoon_8_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_8_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/completesearch_1_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/completesearch_1_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/completesearch_1_other_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/completesearch_1_other_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/completesearch_2_myanswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/completesearch_2_myanswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/greed_1_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/greed_1_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/hash_1_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/hash_1_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/hash_1_other_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/hash_1_other_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/hash_2_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/hash_2_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/hash_3_other_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/hash_3_other_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/hash_4_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/hash_4_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/kakao2017_1_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/kakao2017_1_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/practice_1_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_1_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/practice_2_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_2_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/practice_2_other_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_2_other_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/practice_3_myanswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_3_myanswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/practice_level1_1_myanswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_level1_1_myanswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/practice_level1_1_myanswer_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_level1_1_myanswer_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/practice_level1_2_myanswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_level1_2_myanswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/queue_1_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/queue_1_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/queue_2_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/queue_2_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/queue_3_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/queue_3_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/sort_1_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/sort_1_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/sort_2_my_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/sort_2_my_answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/programmers/sort_2_other_answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/quiz/programmers/sort_2_other_answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin/backjoon/kotlin/Backjoon_3_10Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/backjoon/kotlin/Backjoon_3_10Kt.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
