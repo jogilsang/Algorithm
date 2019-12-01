@@ -2,6 +2,24 @@ package default_sort;
 
 public class BaseSort {
 
+    // TODO : 삽입정렬 (AISC)
+    public static void InsertionSort(int[] arr) {
+        InsertionSort(arr, 1);
+    }
+
+    public static void InsertionSort(int[] arr, int end) {
+
+        if (end < arr.length) {
+            for (int i = end; i > 0; i--) {
+                // 이전항이 그 다음 항보다 크면 swap
+                if (arr[i - 1] > arr[i]) {
+                    swap(arr, i - 1, i);
+                }
+            }
+            InsertionSort(arr, end + 1);
+        }
+    }
+
     // TODO :  선택정렬 (AISC)
     public static void selectionSort(int[] arr) {
         selectionSort(arr,0);

@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f1bcd3-7803-4620-a133-72f34de24d04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/default_sort/TestMergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_12_1_more.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_12_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_12_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_12_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_12_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/default_sort/TestInsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_12_8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java/default_sort/BaseSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/default_sort/BaseSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_12_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_12_1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/default_sort/BaseSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/default_sort/BaseSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_12_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_12_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +43,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="quiz.backjoon" />
       <recent name="default_sort" />
+      <recent name="quiz.backjoon" />
       <recent name="backjoon" />
       <recent name="" />
     </key>
@@ -72,7 +65,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.backjoon_12_6">
+  <component name="RunManager" selected="Application.backjoon_12_8">
+    <configuration name="TestInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_sort.TestInsertionSort" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="default_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="default_sort.TestMergeSort" />
       <module name="java" />
@@ -86,34 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="backjoon_12_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_12_1" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="quiz.backjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="backjoon_12_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_12_2" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="quiz.backjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="backjoon_12_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_12_5" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -138,13 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="backjoon_12_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_12_8" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quiz.backjoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.backjoon_12_8" />
+        <item itemvalue="Application.TestMergeSort" />
+        <item itemvalue="Application.TestInsertionSort" />
         <item itemvalue="Application.backjoon_12_6" />
         <item itemvalue="Application.backjoon_12_2" />
-        <item itemvalue="Application.backjoon_12_5" />
-        <item itemvalue="Application.TestMergeSort" />
-        <item itemvalue="Application.backjoon_12_1" />
       </list>
     </recent_temporary>
   </component>
