@@ -2,11 +2,11 @@ package default_sort;
 
 public class TestInsertionSort {
 
-    public static void InsertionSort(int[] arr) {
-        InsertionSort(arr, 1);
+    public static void insertionSort(int[] arr) {
+        insertionSort(arr, 1);
     }
 
-    public static void InsertionSort(int[] arr, int end) {
+    public static void insertionSort(int[] arr, int end) {
 
        if(end < arr.length) {
            for(int i = end ; i > 0 ; i--) {
@@ -14,7 +14,7 @@ public class TestInsertionSort {
                    swap(arr, i-1 ,i);
                }
            }
-           InsertionSort(arr,end + 1);
+           insertionSort(arr,end + 1);
        }
     }
 
@@ -23,7 +23,7 @@ public class TestInsertionSort {
         // 선택정렬
         int[] arr = {3, 6, 1, 8, 2, 4};
         printArr(arr);
-        InsertionSort(arr);
+        insertionSort(arr);
         printArr(arr);
 
     }

@@ -7,11 +7,11 @@ import java.util.Set;
 public class backjoon_12_8 {
 
     // 문자열 길이에 따라 삽입정렬
-    public static void InsertionSort(String[] arr){
-        InsertionSort(arr, 1);
+    public static void insertionSort(String[] arr){
+        insertionSort(arr, 1);
     }
 
-    public static void InsertionSort(String[] arr, int end){
+    public static void insertionSort(String[] arr, int end){
 
         if(end < arr.length) {
 
@@ -27,7 +27,7 @@ public class backjoon_12_8 {
                     }
                 }
             }
-            InsertionSort(arr, end + 1);
+            insertionSort(arr, end + 1);
         }
     }
 
@@ -56,7 +56,7 @@ public class backjoon_12_8 {
         String[] arr = set.toArray(new String[set.size()]);
 
         // 출력
-        InsertionSort(arr);
+        insertionSort(arr);
         for(String str : arr) {
             System.out.println(str);
         }
