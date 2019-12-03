@@ -1,55 +1,34 @@
 package default_sort;
 
-import java.util.NoSuchElementException;
-
 public class Test {
 
-    public static void main(String[] args) {
+    public static int binarySearch(int[] arr, int key) {
 
+        int left = 0;
+        int right = arr.length -1;
+        return binarySearch(arr , left , right, key);
+    }
+
+    public static int binarySearch(int[] arr, int left, int right, int key) {
+
+        int mid = (left +right) /2;
+
+        if(key == arr[mid]) {
+            return key;
+        }
+
+        if(key >arr[mid]) {
+            return binarySearch(arr, mid +1 , right ,key);
+        }
+        else {
+            return binarySearch(arr, left, mid-1, key);
+        }
 
     }
 
-    class Stack<T> {
 
-        class Node<T> {
+    public static void main(String[] args) {
 
-            private T data;
-            private Node<T> next;
-
-            Node(T data) {
-                this.data = data;
-            }
-
-        }
-
-        private Node<T> top;
-
-        public boolean isEmpty() {
-            return top == null;
-        }
-
-        public T peek() {
-            if (top == null) {
-                throw new NoSuchElementException();
-            }
-            return top.data;
-        }
-
-        public void push(T data) {
-            Node<T> item = new Node<T>(data);
-            item.next = top;
-            top = item;
-        }
-
-        public T pop() {
-            if(top == null) {
-                throw new NoSuchElementException();
-            }
-
-            T data = top.data;
-            top = top.next;
-            return data;
-        }
 
     }
 
