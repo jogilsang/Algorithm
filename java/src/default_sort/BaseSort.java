@@ -1,5 +1,7 @@
 package default_sort;
 
+import java.util.ArrayList;
+
 public class BaseSort {
 
     // TODO : 삽입정렬 (AISC)
@@ -220,5 +222,10 @@ public class BaseSort {
         System.out.println(toString);
     }
 
+    public static void printArr(ArrayList<Integer> arr) {
+        for (int value : arr) {
+            System.out.println(value);
+        }
+    }
 
 }

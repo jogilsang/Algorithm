@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class backjoon_12_2 {
+public class backjoon_12_2_2 {
 
 
     public static void main(String[] args) {
