@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f1bcd3-7803-4620-a133-72f34de24d04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_12_2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_23_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/default_sort/BaseSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/default_sort/BaseSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/default_sort/Test$Graphe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/default_sort/Test$Graphe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/default_sort/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/default_sort/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/default_sort/TestQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/default_sort/TestQuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_12_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/default_sort/BaseSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/default_sort/BaseSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_12_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_12_2_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_12_2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_12_2_1.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
