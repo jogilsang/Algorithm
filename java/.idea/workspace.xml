@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f1bcd3-7803-4620-a133-72f34de24d04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_23_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_23_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_12_2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_12_2_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_23_1$Graphe$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_23_1$Graphe$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_23_1$Graphe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_23_1$Graphe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_23_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_23_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_23_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_23_1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,35 +66,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.backjoon_12_2_1">
-    <configuration name="TestBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_sort.TestBinarySearchTree" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="default_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.backjoon_23_2">
     <configuration name="TestDFSBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="default_sort.TestDFSBFS" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="default_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestInPrePostOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_sort.TestInPrePostOrder" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -129,13 +106,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="backjoon_23_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_23_1" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quiz.backjoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="backjoon_23_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_23_2" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quiz.backjoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.backjoon_23_2" />
+        <item itemvalue="Application.backjoon_23_1" />
         <item itemvalue="Application.backjoon_12_2_1" />
         <item itemvalue="Application.TestQuickSort" />
         <item itemvalue="Application.TestDFSBFS" />
-        <item itemvalue="Application.TestInPrePostOrder" />
-        <item itemvalue="Application.TestBinarySearchTree" />
       </list>
     </recent_temporary>
   </component>

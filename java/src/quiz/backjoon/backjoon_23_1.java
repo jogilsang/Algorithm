@@ -1,5 +1,6 @@
 package quiz.backjoon;
 
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -22,6 +23,7 @@ public class backjoon_23_1 {
         Node[] nodes;
 
         Graphe(int size) {
+            nodes = new Node[size];
             for (int i = 0; i < size; i++) {
                 nodes[i] = new Node(i + 1);
             }
@@ -40,13 +42,12 @@ public class backjoon_23_1 {
         }
 
         public String visit(Node n) {
-            return n.data + " ";
+            return String.valueOf(n.data) + " ";
         }
 
         // 스택
-
         public String dfs(int v) {
-            return dfs(nodes[v-1]);
+            return dfs(nodes[v - 1]);
         }
 
 
@@ -62,14 +63,24 @@ public class backjoon_23_1 {
                 // 큐에서 하나 뺸다
                 Node root = s.removeLast();
                 root.marked = true;
+
+                // 방문
                 answer += visit(root);
 
                 // 작은것부터 방문
-                root.adjacent.sort(null);
+                root.adjacent.sort(new Comparator<Node>() {
+                    @Override
+                    public int compare(Node o1, Node o2) {
+                        if (o1.data > o2.data) {
+                            return -1;
+                        } else {
+                            return 1;
+                        }
+                    }
+                });
                 for (Node closed : root.adjacent) {
                     if (closed.marked == false) {
                         closed.marked = true;
-                        answer += visit(closed);
                         s.add(closed);
                     }
                 }
@@ -97,17 +108,29 @@ public class backjoon_23_1 {
                 // 큐에서 하나 뺸다
                 Node root = q.removeFirst();
                 root.marked = true;
+
+                // 방문
                 answer += visit(root);
 
                 // 작은것부터 방문
-                root.adjacent.sort(null);
+                root.adjacent.sort(new Comparator<Node>() {
+                    @Override
+                    public int compare(Node o1, Node o2) {
+                        if (o1.data > o2.data) {
+                            return 1;
+                        } else {
+                            return -1;
+                        }
+                    }
+                });
                 for (Node closed : root.adjacent) {
                     if (closed.marked == false) {
                         closed.marked = true;
-                        answer += visit(closed);
                         q.add(closed);
                     }
                 }
+
+
             }
 
             return answer;
@@ -148,6 +171,7 @@ public class backjoon_23_1 {
         for (int i = 0; i < m; i++) {
             int a = sc.nextInt();
             int b = sc.nextInt();
+
             g.addEdge(a, b);
         }
 
