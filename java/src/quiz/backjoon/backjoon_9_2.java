@@ -1,6 +1,6 @@
 package quiz.backjoon;
 
-// java (7:30)
+// java (7:30), 2019-12-10
 import java.util.ArrayList;
 import java.util.Scanner;
 

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f1bcd3-7803-4620-a133-72f34de24d04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_9_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_14_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_9_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_9_3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_9_3_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_9_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/quiz/backjoon/backjoon_9_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_9_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_9_2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,48 +67,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.backjoon_9_2">
-    <configuration name="backjoon_12_2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_12_2_1" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="quiz.backjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="backjoon_23_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_23_1" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="quiz.backjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="backjoon_23_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_23_2" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="quiz.backjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="backjoon_9_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_9_1" />
+  <component name="RunManager" selected="Application.backjoon_14_1">
+    <configuration name="backjoon_14_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_14_1" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -127,13 +94,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="backjoon_9_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_9_3" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quiz.backjoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="backjoon_9_3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_9_3_1" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quiz.backjoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="backjoon_9_3_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_9_3_2" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quiz.backjoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.backjoon_14_1" />
+        <item itemvalue="Application.backjoon_9_3_2" />
+        <item itemvalue="Application.backjoon_9_3_1" />
+        <item itemvalue="Application.backjoon_9_3" />
         <item itemvalue="Application.backjoon_9_2" />
-        <item itemvalue="Application.backjoon_9_1" />
-        <item itemvalue="Application.backjoon_23_2" />
-        <item itemvalue="Application.backjoon_23_1" />
-        <item itemvalue="Application.backjoon_12_2_1" />
       </list>
     </recent_temporary>
   </component>
