@@ -2,7 +2,7 @@
 -- Q : 1000
 --DROP PROC main1_6
 
-CREATE PROC main1_6
+CREATE PROC main1_7
 	@param1 int,
 	@param2 int
 		AS
