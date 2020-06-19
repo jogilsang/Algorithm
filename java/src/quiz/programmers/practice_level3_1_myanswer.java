@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class practice_level3_1_myanswer {
 
 // https://programmers.co.kr/learn/courses/30/lessons/12924
@@ -31,7 +29,7 @@ public class practice_level3_1_myanswer {
         while(n != 0) {
 
             int pivot_0 = n/2 - 1;
-            int pivot_1 = n/2
+            int pivot_1 = n/2;
             int pivot_2 = n/2 + 1;
             int sum_pivot_0 = 0;
             int sum_pivot_1 = 0;
