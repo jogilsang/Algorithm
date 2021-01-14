@@ -1,5 +1,8 @@
 package quiz.backjoon;
 
+
+// jogilsang, 2019-12-13, 05:41
+
 import java.util.Scanner;
 
 public class backjoon_14_1 {

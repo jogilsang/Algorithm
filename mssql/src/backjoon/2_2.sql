@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 ﻿-- mssql
 -- Q : ﻿9498번
 -- C:\algo\Algorithm\mssql\src\backjoon
 
 DROP PROC main2_2
+=======
+
+--DROP PROC main2_2
+>>>>>>> ca5f61c4e005d6c58002e90414797f7271ff9612
 
 CREATE PROC main2_2
 	@input INT
