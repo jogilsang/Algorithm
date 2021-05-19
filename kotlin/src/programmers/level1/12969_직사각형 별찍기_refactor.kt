@@ -1,26 +1,35 @@
 package programmers.level1
 
-// https://programmers.co.kr/learn/courses/30/lessons/12969
-// refactor : 2021-05-19
+/**
+ * https://programmers.co.kr/learn/courses/30/lessons/12969
+ */
 
 fun main(args: Array<String>) {
 
-    // given : 이 문제에는 표준 입력으로 두 개의 정수 n과 m이 주어집니다.
+    // given
     val (a, b) = readLine()!!.split(' ').map(String::toInt)
     // when
-    val result: StringBuffer = getStartSquare(a, b)
+    val result: StringBuffer = getStarSqure(a, b)
     // then
     println(result)
 
 }
 
-fun getStartSquare(a: Int, b: Int): StringBuffer {
+/**
+ * 별(*)를 a번 반복한 문자열을 b번 반복한 뒤, 출력한다.
+ *
+ * @param {Int} a 별(*)를 반복하는 횟수(=StarRow.length)
+ * @param {Int} b 반복된 별(*)을 개행할 횟수
+ * @return {StringBuffer} StarSquare 출력 시, 별(*)이 a*b 로 구성된 문자열
+ */
 
-    val row: StringBuffer = StringBuffer()
-    val StartSquare: StringBuffer = StringBuffer()
+fun getStarSqure(a: Int, b: Int): StringBuffer {
 
-    for (i in 1..a) row.append("*")
-    for (j in 1..b) StartSquare.append(row).append("\n")
+    val StarRow: StringBuffer = StringBuffer()
+    val StarSqure: StringBuffer = StringBuffer()
 
-    return StartSquare
+    repeat(a){StarRow.append("*")}
+    repeat(b){StarSqure.append(StarRow).append("\n")}
+
+    return StarSqure
 }
