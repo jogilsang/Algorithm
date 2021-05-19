@@ -21,28 +21,8 @@ backjoon
 programmers  
 <https://programmers.co.kr/>  
 
+project-euler   
+<https://euler.synap.co.kr/>   
+
 COSPro   
 <https://www.ybmit.com/cs/faq_list.jsp?view_div=11>  
-
-
-Cotact
-=============
-
-mail :
-jogilsang@naver.com
-
-kakao :
-jogilsang
-
-Instagram :
-<https://www.instagram.com/jogilsang3>
-
-Youtube :
-<https://www.youtube.com/user/mrjogilsang>
-
-more information : 
-<https://blog.naver.com/jogilsang>
-
-License
-=============
-My Solution is free!!!
