@@ -1,4 +1,4 @@
-﻿# Algorithm
+# Algorithm
 
 i want to solve all problem in many languages
 - [1.java](https://github.com/jogilsang/Algorithm/tree/master/java)
@@ -7,7 +7,6 @@ i want to solve all problem in many languages
 ---
 INDEX
 =============
-<<<<<<< HEAD
 - [BaseSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/BaseSort.java)
 - [StudySort.java]https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/StudySort.java)
 - [Test.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/Test.java)
