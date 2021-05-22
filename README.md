@@ -9,7 +9,7 @@ i want to solve all problem in many languages
 INDEX
 =============
 - [BaseSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/default_sort/BaseSort.java)
-- [StudySort.java]https://github.com/jogilsang/Algorithm/blob/master/1.java/src/default_sort/StudySort.java)
+- [StudySort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/default_sort/StudySort.java)
 - [Test.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/default_sort/Test.java)
 - [TestBinarySearch.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/default_sort/TestBinarySearch.java)
 - [TestBinarySearchTree.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/default_sort/TestBinarySearchTree.java)
