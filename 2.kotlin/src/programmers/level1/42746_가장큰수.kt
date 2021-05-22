@@ -13,11 +13,28 @@ package programmers.level1
 
 fun main(args:Array<String>)
 {
-
+    var numbers:IntArray = arrayOf(3, 30, 34, 5, 9).toIntArray()
+    println(solution_42746(numbers))
 }
 
+// 20분
 fun solution_42746(numbers: IntArray): String
 {
+    // 1. numbers의 원소들을 String으로 바꾼다.
+    var max:Int = 0
+    var arr = numbers.map { it.toString() }
+    for (i in 0..arr.lastIndex) {
+        for(j in 0..arr.lastIndex) {
+            if(i == j) {
+                continue
+            }
+            var value:Int = (arr[i]+arr[j]).toInt()
+            if(value > max) {
+                max = value
+            }
+        }
+    }
 
+    return max.toString()
 }
 

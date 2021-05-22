@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92a68e97-b164-4dbe-aaeb-86bb645c66f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/programmers/level1/12910_나누어떨어지는숫자배열.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/META-INF/algo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/_001_hellokotlinKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/backjoon/backjoon_1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/backjoon/backjoon_1_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/backjoon/backjoon_1_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/backjoon/backjoon_1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/backjoon/backjoon_1_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/backjoon/backjoon_1_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/completesearch_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/completesearch_1_other_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/completesearch_2_myanswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/greed_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/hash_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/hash_1_other_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/hash_2_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/hash_3_other_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/hash_4_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/kakao2017_1_my_answer$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/kakao2017_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/kakaowinter_2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/kakaowinter_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/kakaowinter_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/kakaowinter_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/kakaowinter_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/line_0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/line_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/line_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/line_3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/line_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/line_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/line_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/line_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/naver_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/naver_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/naver_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/netmarble_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/netmarble_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/netmarble_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/netmarble_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/netmarble_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/netmarble_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/netmarble_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/netmarble_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/netmarble_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/practice_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/practice_2_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/practice_2_other_answer$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/practice_2_other_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/practice_3_myanswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/practice_level1_1_myanswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/practice_level1_1_myanswer_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/practice_level1_2_myanswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/queue_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/queue_2_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/queue_3_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/sort_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/sort_2_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/sort_2_other_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/util/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/algo/util/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/META-INF/java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/_001_hellokotlinKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/completesearch_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/completesearch_1_other_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/completesearch_2_myanswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/BaseSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/StudySort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/Test$Graphe$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/Test$Graphe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestBinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestBinarySearchTree$Tree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestBinarySearchTree$Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestBinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestBubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestDFSBFS$Graph$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestDFSBFS$Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestDFSBFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestDFSBFS_array$Graph$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestDFSBFS_array$Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestDFSBFS_array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestInPrePostOrder$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestInPrePostOrder$Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestInPrePostOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestInsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestMergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestMergeSort2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestQueue$Queue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestQueue$Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestQuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestSelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestStack$Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestStack$Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/default_sort/TestStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/greed_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/hash_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/hash_1_other_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/hash_2_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/hash_3_other_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/hash_4_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/kakao2017_1_my_answer$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/kakao2017_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/practice_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/practice_2_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/practice_2_other_answer$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/practice_2_other_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/practice_3_myanswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/practice_level1_1_myanswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/practice_level1_1_myanswer_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/practice_level1_2_myanswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/practice_level3_1_myanswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/practice_level3_2_myanswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/practice_level3_3_myanswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/queue_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/queue_2_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/queue_3_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/1차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/2차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/3차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/4차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/5차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/6차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/1차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/2차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/3차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/4차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/5차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/6차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_10_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_10_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_10_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_11_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_11_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_12_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_12_1_more.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_12_2_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_12_2_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_12_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_12_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_12_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_12_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_12_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_13_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_14_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_14_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_17_1$Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_17_1$Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_17_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_17_2$Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_17_2$Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_17_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_18_1$Queue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_18_1$Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_18_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_1_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_1_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_1_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_1_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_20_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_20_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_23_1$Graphe$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_23_1$Graphe$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_23_1$Graphe$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_23_1$Graphe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_23_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_23_2$Graphe$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_23_2$Graphe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_23_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_23_3$Graphe$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_23_3$Graphe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_23_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_2_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_3_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_5_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_5_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_5_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_5_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_5_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_5_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_5_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_5_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_7_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_7_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_7_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_7_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_7_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_7_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_7_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_7_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_8_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_9_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_9_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_9_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_9_3_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/backjoon/backjoon_9_3_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/quiz/programmers/practice_level3_2_1_myanswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/sort_1_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/sort_2_my_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/sort_2_other_answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/util/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/util/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/BaseSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/StudySort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestBinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestBinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestBubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestDFSBFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestDFSBFS_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestInPrePostOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestInsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestMergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestMergeSort2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestQuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestSelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/default_sort/TestStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/1차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/2차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/3차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/4차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/5차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/1급 자바 DSE/1급 자바 DSE/6차 1급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/1차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/2차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/3차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/4차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/5차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/COSPro_YBM/2급 자바 DSE/2급 자바 DSE/6차 2급 java언어description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_10_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_10_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_10_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_11_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_11_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_12813.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_12813.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_12_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_12_1_more.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_12_2_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_12_2_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_12_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_12_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_12_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_12_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_12_9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_13_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_14_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_14_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_17_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_17_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_18_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_1_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_1_10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_1_11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_1_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_1_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_1_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_20_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_20_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_23_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_23_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_23_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_2_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_3_9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_5_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_7_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_8_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_9_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_9_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_9_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_9_3_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/backjoon/backjoon_9_3_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/completesearch_1_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/completesearch_1_other_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/completesearch_2_myanswer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/greed_1_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/hash_1_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/hash_1_other_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/hash_2_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/hash_3_other_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/hash_4_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/kakao2017_1_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_1_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_2_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_2_other_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_3_myanswer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_level1_1_myanswer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_level1_1_myanswer_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_level1_2_myanswer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_level3_1_myanswer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_level3_2_1_myanswer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_level3_2_myanswer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/practice_level3_3_myanswer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/queue_1_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/queue_2_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/queue_3_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/sort_1_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/sort_2_my_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/quiz/programmers/sort_2_other_answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/util/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/util/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/util/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2.kotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/42746_가장큰수.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level1/42746_가장큰수.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1SJcQgtH5imJe0KpBEHWYLaXftr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/programmers/level1" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="book_kotlin_200" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\Algorithm\kotlin\src\programmers\level1" />
+      <recent name="C:\algorithm\kotlin\src\backjoon\kotlin" />
+      <recent name="C:\kotlin\book_kotlin_200\src\backjoon" />
+      <recent name="C:\kotlin\book_kotlin_200\src\ex_func_in_another_package" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\kotlin\book_kotlin_200\src\backjoon\kotlin" />
+      <recent name="C:\kotlin\book_kotlin_200\src\book_kotlin_200" />
+      <recent name="C:\kotlin\book_kotlin_200\src\backjoon" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.programmers.level1._12910_나누어떨어지는숫자배열Kt">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="2.kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers.level1._12910_나누어떨어지는숫자배열Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="2.kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="programmers.level1._12910_나누어떨어지는숫자배열Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers.level1._12917_문자열_내림차순으로_배치하기_Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="2.kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="programmers.level1._12917_문자열_내림차순으로_배치하기_Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers.level1._12931_자릿수더하기Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="2.kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="programmers.level1._12931_자릿수더하기Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers.level1._42746_가장큰수Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="2.kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="programmers.level1._42746_가장큰수Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers.level2._12939_최댓값과최솟값Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="2.kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="programmers.level2._12939_최댓값과최솟값Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="2.kotlin" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.programmers.level1._12910_나누어떨어지는숫자배열Kt" />
+        <item itemvalue="Kotlin.programmers.level1._42746_가장큰수Kt" />
+        <item itemvalue="Kotlin.programmers.level1._12917_문자열_내림차순으로_배치하기_Kt" />
+        <item itemvalue="Kotlin.programmers.level2._12939_최댓값과최솟값Kt" />
+        <item itemvalue="Kotlin.programmers.level1._12931_자릿수더하기Kt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92a68e97-b164-4dbe-aaeb-86bb645c66f6" name="Default Changelist" comment="" />
+      <created>1571285124917</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571285124917</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="10" key="CommitChangelistDialog2" timestamp="1621433676675">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621433676675" />
+    <state width="746" height="236" key="GridCell.Tab.0.bottom" timestamp="1621660390011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621660390011" />
+    <state width="746" height="236" key="GridCell.Tab.0.center" timestamp="1621660390011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="236" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621660390011" />
+    <state width="746" height="236" key="GridCell.Tab.0.left" timestamp="1621660390011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="236" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621660390011" />
+    <state width="746" height="236" key="GridCell.Tab.0.right" timestamp="1621660390011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="236" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621660390011" />
+    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1621660390007">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621660390007" />
+    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1621660390006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621660390006" />
+    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1621660390006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621660390006" />
+    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1621660390006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621660390006" />
+    <state x="302" y="71" key="SettingsEditor" timestamp="1621505793316">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="302" y="71" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621505793316" />
+    <state x="0" y="0" width="746" height="824" key="find.popup" timestamp="1621442459814">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" width="746" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1621442459814" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1621415316880">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1621415316880" />
+  </component>
+</project>
