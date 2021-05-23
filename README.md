@@ -26,14 +26,6 @@ INDEX
 
 ---
 
-Introduce
-=============
-
-more information, please visit my blog!!!  
-kr : <http://blog.naver.com/jogilsang>  
-
----
-
 Contents
 =============
 
