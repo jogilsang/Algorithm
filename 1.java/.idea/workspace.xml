@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f1bcd3-7803-4620-a133-72f34de24d04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quiz/backjoon/backjoon_19_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quiz/programmers/practice_level3_1_myanswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quiz/programmers/practice_level3_1_myanswer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quiz/programmers/practice_level3_2_myanswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quiz/programmers/practice_level3_2_myanswer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quiz/programmers/practice_level3_3_myanswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quiz/programmers/practice_level3_3_myanswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/META-INF/java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/_001_hellokotlinKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/quiz/programmers/practice_level3_2_1_myanswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/quiz/programmers/practice_level3_2_1_myanswer.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,9 +32,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kotlin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,19 +58,7 @@
       <recent name="C:\IdeaProjects\algo\src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.practice_level3_2_1_myanswer">
+  <component name="RunManager" selected="Application.backjoon_19_1">
     <configuration name="backjoon_14_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_14_1" />
       <module name="java" />
@@ -96,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="backjoon_9_3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_9_3_1" />
+    <configuration name="backjoon_19_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quiz.backjoon.backjoon_19_1" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.backjoon_19_1" />
         <item itemvalue="Application.practice_level3_2_1_myanswer" />
         <item itemvalue="Application.backjoon_14_2" />
         <item itemvalue="Application.backjoon_14_1" />
         <item itemvalue="Application.backjoon_9_3_2" />
-        <item itemvalue="Application.backjoon_9_3_1" />
       </list>
     </recent_temporary>
   </component>
@@ -170,5 +159,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1622407598249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622407598249" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1622407598249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622407598249" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1622407598249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622407598249" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1622407598249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622407598249" />
   </component>
 </project>
