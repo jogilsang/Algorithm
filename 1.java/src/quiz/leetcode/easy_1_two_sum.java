@@ -9,8 +9,13 @@
 
 //1. Two Sum
 
-package quiz.leetcode;
-import java.util.Arrays;
+// Success
+// Details 
+// Runtime: 50 ms, faster than 25.18% of Java online submissions for Two Sum.
+// Memory Usage: 38.9 MB, less than 87.23% of Java online submissions for Two Sum.
+
+// package quiz.leetcode;
+// import java.util.Arrays;
 
 class easy_1_two_sum {
 
