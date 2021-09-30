@@ -2,9 +2,14 @@
 // 두 문자열이 애너그램 관계인지 판별하기
 // 한 문자열의 글자의 순서만 바꿔서 다른 문자열이 된다면 이 둘은 애너그램 관계이다
 // "car"와 "arc"는 순서만 다르므로 애너그램 관계이다.
-import java.util.HashMap;
+import java.util.*;
 
-public class Anagram {
+public class udemy_4_3 {
+
+    public static void main(String[] args) {
+        System.out.println("test");
+    }
+
     // my_answer
     public static boolean isAnagram(String s1, String s2) {
         // 1. s1,s2 사이즈를 비교한다. 서로 다르면 return false
@@ -20,18 +25,18 @@ public class Anagram {
         Arrays.sort(ca2);
 
         // 3. 서로 비교해서 다른게 나오면 return false
-        for(int i=0 ; i < size ;i++) {
-            if(!ca1[i].equals(ca2[i]) {
-                return false;
-            }
-        }
+        // for(int i=0 ; i < size ;i++) {
+        //     if(!ca1[i].equals(ca2[i])) {
+        //         return false;
+        //     }
+        // }
         
         // 4. 전부 같은경우 return true
         return true;
     }
 
        // my_answer_2
-       public static boolean isAnagram(String s1, String s2) {
+       public static boolean isAnagram_2(String s1, String s2) {
         // 1. s1,s2 사이즈를 비교한다. 서로 다르면 return false
         if(s1.length() != s2.length()) {
             return false;
