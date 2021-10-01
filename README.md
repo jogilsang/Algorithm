@@ -7,16 +7,16 @@ i want to solve all problem in many languages
 ---
 
 ## INDEX
- - [Sort](#+Sort)
- - [Queue](#+Queue)
- - [Stack](#+Stack)
- - [bruteforce](#+bruteforce)
- - [Graphe(Tree,DFS,BFS)](#+Graphe(Tree,DFS,BFS))
- - [DP](#+DP)
+ - [Sort](#+%20Sort)
+ - [Queue](#+%20Queue)
+ - [Stack](#+%20Stack)
+ - [bruteforce](#+%20bruteforce)
+ - [Graphe(Tree,DFS,BFS)](#+%20Graphe(Tree,DFS,BFS))
+ - [DP](#+%20DP)
 
 ---
 
-### +Sort
+### + Sort
 - [BaseSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/BaseSort.java)
 - [BubbleSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestBubbleSort.java)
 - [MergeSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestMergeSort.java)
@@ -24,18 +24,18 @@ i want to solve all problem in many languages
 - [QuickSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestQuickSort.java)
 - [SelectionSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestSelectionSort.java)
 - [InsertionSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestInsertionSort.java)
-### +Queue
+### + Queue
 - [Queue.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestQueue.java)
-### +Stack
+### + Stack
 - [Stack.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestStack.java)
-### +bruteforce
-### +Graphe(Tree,DFS,BFS)
+### + bruteforce
+### + Graphe(Tree,DFS,BFS)
 - [BinarySearch.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestBinarySearch.java)
 - [BinarySearchTree.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestBinarySearchTree.java)
 - [InPrePostOrder.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestInPrePostOrder.java)
 - [DFSBFS.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestDFSBFS.java)
 - [DFSBFS_array.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestDFSBFS_array.java)
-### +DP
+### + DP
 
 ---
 
