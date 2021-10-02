@@ -74,43 +74,70 @@ public class Test {
     //  2 -- 4   \
     //            6 - 8
 
-    static class Graphe {
+    static class Graph {
         class Node {
             int data;
-            boolean marked;
             LinkedList<Node> adjacent;
+            boolean marked;
 
             Node(int data) {
                 this.data = data;
-                this.marked = false;
+                marked = false;
                 adjacent = new LinkedList<Node>();
             }
         }
 
         Node[] nodes;
 
-        Graphe(int size) {
-            for (int i = 0; i < size; i++) {
+        Graph(int size) {
+            nodes = new Node[size];
+            for (int i = 0; i < ; i++) {
                 nodes[i] = new Node(i);
             }
         }
 
-        public void addEddgs(int i1, int i2) {
+        // 방문 시 화면보이기
+        void visit(Node n) {
+            System.out.println("n.data + " ");
+        }
+
+        // 두 노드의 관계를 저장
+        void addEdge(int i1, int i2) {
             Node n1 = nodes[i1];
             Node n2 = nodes[i2];
-
-            if (!n1.adjacent.contains(n2)) {
+            if(!n1.adjacent.contains(n2)){
                 n1.adjacent.add(n2);
             }
 
-            if (!n2.adjacent.contains(n1)) {
+            if(!n2.adjacent.contains(n1)){
                 n2.adjacent.add(n1);
             }
-
         }
 
-        public void initMarks() {
-            for (int i = 0; i < nodes.length; i++) {
+        void dfsR() {
+            dfsR(0);
+        }
+        void dfsR(int index) {
+            Node node = nodes[index];
+            dfsR(node);
+        }
+        void dfsR(Node r) {
+            if(r==null) return;
+            r.marked = true;
+            visit(r);
+            for(Node n : r.adjacent) {
+                if(n.marked == false) {
+                    dfsR(n);
+                }
+            }
+        }
+
+        void bfs() {
+            bfs(0);
+        }
+
+        void initMarks() {
+            for (int i = 0; i < nodes.length ; i++) {
                 nodes[i].marked = false;
             }
         }
@@ -120,36 +147,27 @@ public class Test {
         }
 
         boolean search(Node start, Node end) {
-            // 마크를 초기화합니다
+            // 마크를 초기화한다
             initMarks();
-            // Q를 선언합니다.
+            // queue를 만든다
             LinkedList<Node> q = new LinkedList<Node>();
-            // Q에 root를 enqueue 합니다.
+            // q에 시작노드를 넣는다.
             q.add(start);
-            // Q가 빌때까지 dequeue합니다.
-            while(!q.isEmpty()) {
-                // q에서 하나 뻅니다.
+            // q가 비지않을때까지 찾는다.
+            while(!q.isEmpty()){
                 Node root = q.removeFirst();
-            // 종료조건을 확인합니다
                 if(root == end) {
                     return true;
                 }
                 for(Node n : root.adjacent) {
                     if(n.marked == false) {
-                        n.marked = true;
+                        n.marked == true;
                         q.add(n);
                     }
                 }
-
-            // q의 인접 노드들을 확인합니다.
-            // 방문하지 않았다면 체크합니다.
-            // q에 집어넣습니다.
+            }
         }
-            return false;
     }
-
-
-}
 
     public static void quickSort(int[] arr) {
 
