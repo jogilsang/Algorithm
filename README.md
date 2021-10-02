@@ -32,7 +32,10 @@ i want to solve all problem in many languages
 `Queue는 FIFO(First In First Out) 구조의 자료구조`   
 Queue는 interface이기떄문에, new로 생성하지못한다   
 offer, poll, peek 사용을 권장한다.   
-(add,remove,element를 쓴다면 try,catch 해야한다)   
+(add,remove,element를 쓴다면 try,catch 해야한다) 
+
+- [두개의 Stack으로 Queue만들기](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/quiz/udemy_993276/udemy_9_2.java)
+
 > Prioity Queue는 Queue인터페이스의 구현체이다.   
 
 ```java
@@ -49,6 +52,7 @@ size() : 크기 - O(1)
 ```
 ### + [Stack](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestStack.java)
 `Stack : LIFO(Last In First Out) 구조의 자료구조`
+- [Stack 정렬하기](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestStackSort.java)
 
 ```java
 import java.util.Stack;
