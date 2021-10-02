@@ -4,6 +4,68 @@ import java.util.LinkedList;
 
 public class Test {
 
+    class Queue<T> {
+        class Node<T> {
+            T data;
+            Node<T> next;
+
+            public Node(T data) {
+                this.data =data;
+            }
+        }
+        Node<T> first;
+        Node<T> last;
+
+        public void offer(T data) {
+
+            Node<T> item = new Node<T>(data);
+            if(last != null) {
+                last.next = item;
+            }
+            last = item;
+
+            if(first == null) {
+                first = last;
+            }
+        }
+
+    }
+    class Stack<T> {
+        class Node<T> {
+            T data;
+            Node node;
+            public Node(T data) {
+                this.data = datal;
+            }
+        }
+
+        Node<T> top;
+        public boolean isEmpty() {return top == null;}
+        public T peek() {
+            if(top == null) {
+                throw new NosuchElementException;
+            }
+            return top.data;
+        }
+
+        public T pop() {
+            if(top == null) {
+                throw new NoSuchElementException();
+            }
+
+            T data = top.data;
+            top = top.next;
+
+            return data;
+        }
+
+        public void push(T data) {
+            Node<T> node = new Node<T>(data);
+            node.next = top;
+            top = node;
+        }
+    }
+
     //    0
     //   /
     //  1 -- 3    7
