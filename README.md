@@ -14,14 +14,18 @@ i want to solve all problem in many languages
  - [Graphe(Tree,DFS,BFS)](#+%20Graphe(Tree,DFS,BFS))
  - [DP](#+%20DP)
 
-- [Syntax](#Syntax)
-    - [String](#String)
-    - [Collections](#Collections)
-    - [ArrayList](#ArrayList)
-    - [Math](#Math)
-    - [HashMap](#HashMap)
-    - [HashSet](#HashSet)
-- [skills](#skills)
+- [Syntax](#syntax)
+    - [Array](#array)
+    - [String](#string)
+    - [Collections](#collections)
+    - [ArrayList](#arrayList)
+    - [Math](#math)
+    - [HashMap](#hashMap)
+    - [HashSet](#hashSet)
+    - [PriorityQueue](#priorityQueue)
+    - [Conversion](#conversion)
+- [Input](#input)
+- [Skills](#skills)
 
 ---
 
@@ -83,37 +87,47 @@ Stack<Integer> stack = new Stack<>();
 - [DFSBFS_array.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestDFSBFS_array.java)
 ### + DP
 
-### Syntax
+### syntax
+### array
 ```java
 // char 배열선언하기
 int[] arr1 = new int[10];
 char[] arr2 = "Good".toCharArray();
 
-// ArrayList : 배열을 사용해서 List를 구현한 클래스
-import java.util.ArrayList;
-ArrayList<Integer> arrayList = new ArrayList<>();
-LinkedList<Integer> linkedList = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+// array 정렬, 배열 정렬
+int[] array = new int[]{1,2,5,4,3};
+Arrays.sort(array);
 
-// LinkedList : 노드를 연결하는 방식의 List를 구현한 클래스
-import java.util.LinkedList;
-LinkedList<Integer> linkedList = new LinkedList<>(); 
-LinkedList<Integer> linkedList = new LinkedList<>(Arrays.asList(1, 2, 3, 4, 5));
 
-// HashMap : Map 인터페이스를 구현한 Map 클래스. key와 value로 구성된 Entry객체를 저장하는 구조의 자료구조
-import java.util.HashMap;
-HashMap<String, Integer> hashMap = new HashMap();
+// 배열 원소 탐색, 비교
+boolean result = Arrays.stream(intArr)
+        .allMatch(a -> a%2 == 0);
+System.out.println("2의 배수? " + result);
 
-// HashSet : Set 인터페이스를 구현한 Set 클래스
-import java.util.HashSet;
-HashSet<Integer> hashSet = new HashSet<>();
+result = Arrays.stream(intArr)
+        .anyMatch(a -> a%3 == 0);
+System.out.println("3의 배수가 하나라도 있나? " + result);
 
-// PriorityQueue : Heap을 이용하여 구현한 우선순위 큐
-import java.util.PriorityQueue;
-PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(); // 우선순위 낮은순
-PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder()); // 우선순위 높은순
+result = Arrays.stream(intArr)
+        .noneMatch(a -> a%3 == 0);
+System.out.println("3의 배수가 없나? " + result);
+
+// 2차원 배열, 첫번째 행 기준 오름차순 정렬
+        int[][] users = new int[a][2];     
+  
+        Arrays.sort(users, new Comparator<int[]>() {
+            @Override
+            public int compare(final int[] entry1, final int[] entry2) {
+                final Integer time1 = entry1[0];
+                final Integer time2 = entry2[0];
+                return time1.compareTo(time2);
+            }
+        });
+
 ```
+---
 
-### String
+### string
 ```java
 length() : 문자열의 길이. array와 collection의 길이가 다다름
 equals(String s) : 다른 문자열과 같은지 비교
@@ -121,7 +135,7 @@ charAt(int i) : i번째 글자
 toCharArray() : char[]로 변환
 substring(int beginIndex, int endIndex) : 문자열 일부 잘라오기
 replaceAll(String reg, String replacement) : 특정 문자열 모두 교체
-split(String reg) : 주어진 글자로 잘라서 String[] 변환
+split(String reg) : 주어진 글자로 잘라서 String[] 변환, String <-> String[] 
 trim() : 문자열 앞뒤의 공백문제를 제거
 toUpperCase() : 모두 대문자로 변환
 
@@ -135,9 +149,10 @@ toUpperCase() : 모두 대문자로 변환
 "sdf".replaceAll("s", "t") = "tdf"
 "sdf".toCharArray() = ["s","d","f"]
 "sdf".equals("fff") = false
+
 ```
 
-### Collections
+### collections
 ```java
 import java.utils.Collections;
 
@@ -151,10 +166,15 @@ int index = Collections.binarySearch(list, 3); // 5
 
 ```
 
-### ArrayList
+### arrayList
+`ArrayList : 배열을 사용해서 List를 구현한 클래스`
+`LinkedList : 노드를 연결하는 방식의 List를 구현한 클래스`
 ```java
+// example
 import java.utils.ArrayList;
+import java.util.LinkedList;
 
+LinkedList<Integer> linkedList = new LinkedList<>(Arrays.asList(1, 2, 3, 4, 5));
 ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(1,2,3,4,5));
 arrayList.add(5); //[5]
 arrayList.add(3); //[5,3]
@@ -164,9 +184,28 @@ arrayList.remove(0); //[3]
 if(arrayList.contains(3)) System.out.println("포함되면 출력");
 int index = arrayList.indexOf(3);
 
+// ---------------------------
+
+// Set <-> List 셋 리스트 변환
+Set dataSet = new HashSet();
+List dataList = new ArrayList(dataSet); 
+
+// arrayList <-> array , 리스트 배열 변환
+long[] answer = {};
+ArrayList<Long> answerList = new ArrayList<>();
+answer = answerList.stream().mapToLong(p -> p.longValue()).toArray();
+return answer;
+
+// arraylist 정렬, list 정렬, 리스트 정렬
+ArrayList<Integer> arrayList = new ArrayList<>();        
+// 가장 높은순것에서 아래로, 내림차순으로 정렬
+Collections.reverse(arrayList);
+// 가장 낮은거에서 높은곳으로, 오름차순 정렬(ascending)
+Collections.sort(arrayList);
+
 ```
 
-### Math
+### math
 ```java
 import java.lang.Math;
 
@@ -176,9 +215,25 @@ System.out.println(Math.min(10,-10)); // -10
 System.out.println((int)(Math.random() * 10)); // 0~9 난수
 
 ```
-
-### HashMap
+### hashSet
 ```java
+// HashSet : Set 인터페이스를 구현한 Set 클래스
+import java.util.HashSet;
+HashSet<Integer> hashSet = new HashSet<>();
+```
+```java
+// 해시셋 전체순환(해시셋 반복자)
+        HashSet<String> hashSet = new HashSet<>();
+        Iterator<String> it = hashSet.iterator(); 
+        while (it.hasNext()) {
+            String temp = it.next();
+        }
+```
+
+### hashMap
+`HashMap : Map 인터페이스를 구현한 Map 클래스. key와 value로 구성된 Entry객체를 저장하는 구조의 자료구조`
+```java
+// example
 HashMap<String, Integer> map1 = new HashMap<>();
 HashMap<String, Integer> map2 = new HashMap<>();
 
@@ -195,18 +250,113 @@ map1.get("key1"); // 5
 if(map1.containsKey("key3")); // false
 if(map1.containsValue(55); // true
 
-Set<String> keys = map1.keySet();
-Collection<Integer> values = map1.values();
-
 map1.replace("key22", 44);
 if(map1.replace("key22", 44, 55)); // true
 if(map1.replace("key22", 11, 66)); // false
+```
+```java
+// hashmap <-> array, 해시맵 배열 변환
+Set<String> keys = map1.keySet();
+Collection<Integer> values = map1.values();
+String[] arrayString = {};
+int[] arrayInteger = {};
+HashMap<String,Integer> hashMap = new HashMap();  
+arrayString = hashMap.keySet().toArray(); // returns an array of keys
+arrayInteger = hashMap.values().toArray(); // returns an array of values
+arrayString = keys.toArray(); // returns an array of keys
+arrayInteger = values.toArray(); // returns an array of values
 
+// 해시맵 순환(해시맵 반복)
+       HashMap<String,Integer> hashMap = new HashMap(); 
+
+       for( Map.Entry<String, Integer> elem : hashMap.entrySet() ){
+          String key = elem.getKey();  
+          int value = elem.getValue();
+       }
 ```
 
+### PriorityQueue
+`Heap을 이용하여 구현한 우선순위 큐`
+```java
+import java.util.PriorityQueue;
+
+PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(); // 우선순위 낮은순
+PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder()); // 우선순위 높은순
+```
+
+### conversion
+```java
+// Double a -> Integer b
+    a.intValue()
+    b.doubleValue()
+```
 ---
 
-### skils
+### input
+- 일반적인 입력형식
+```java
+        // java
+        // 입력형식, 100 1000 50
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        // kotlin
+        // 입력형식
+        var str = readLine().toString()
+        var A = str.split(" ").get(0).toLong()// 1000
+        var B = str.split(" ").get(1).toLong() // 70
+        var C = str.split(" ").get(2).toLong() // 170
+```
+
+### - 공백 입력형식
+```java
+         // 입력형식
+        Scanner sc = new Scanner(System.in);
+
+        // ex : 3 5 6 2 4
+        // 첫 번째 행에 공백(space)을 구분자로 숫자가 주어진다
+        // 각 숫자는 한 자리 숫자로 주어진다 (0과 같거나 크고, 10보다 작은 숫자)
+        // 같은 숫자가 중복되어 나타나지 않는다
+        String input = sc.nextLine();
+        String[] splitInput = input.split(" ");
+        int[] arr = new int[splitInput.length];
+        
+        int count = 0;
+        for(String value : splitInput) {
+            arr[count++] = Integer.valueOf(value);
+        }
+```
+
+### - 2차원 배열 입력형식
+```java
+        // 입력형식
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();
+
+        int[][] users = new int[a][2];
+
+        for(int p = 0 ; p < a ; p++) {
+            int b = sc.nextInt();
+            int c = sc.nextInt();
+
+            users[p][0] = b;
+            users[p][1] = c;
+        }
+```
+
+### - 숫자입력 후 문자입력 
+```java
+        // 입출력 받음
+        // (개행문자 제거해야 오류 발생안함)
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        sc.nextLine(); // 개행문자 제거
+        String b = sc.nextLine();
+```
+
+### skills
 ICN SFO ATL ICN ATL SFO"
 ICN ATL SFO ATL ICN SFO"
 ```java
@@ -218,7 +368,7 @@ String[] answer = answers.get(0).split(" ");
 
 ---
 
-Reference
+### Reference
 =============
 
 - [backjoon](https://www.acmicpc.net/)
