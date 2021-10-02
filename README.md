@@ -16,6 +16,12 @@ i want to solve all problem in many languages
 
 - [Syntax](#Syntax)
     - [String](#String)
+    - [Collections](#Collections)
+    - [ArrayList](#ArrayList)
+    - [Math](#Math)
+    - [HashMap](#HashMap)
+    - [HashSet](#HashSet)
+- [skills](#skills)
 
 ---
 
@@ -67,6 +73,9 @@ Stack<Integer> stack = new Stack<>();
 
 ### + bruteforce
 ### + Graphe(Tree,DFS,BFS)
+
+> - [코딩테스트 연습 깊이/너비 우선 탐색(DFS/BFS) 타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)   
+
 - [BinarySearch.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestBinarySearch.java)
 - [BinarySearchTree.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestBinarySearchTree.java)
 - [InPrePostOrder.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestInPrePostOrder.java)
@@ -111,13 +120,101 @@ equals(String s) : 다른 문자열과 같은지 비교
 charAt(int i) : i번째 글자
 toCharArray() : char[]로 변환
 substring(int beginIndex, int endIndex) : 문자열 일부 잘라오기
-toUpperCase() : 모두 대문자로 변환
 replaceAll(String reg, String replacement) : 특정 문자열 모두 교체
 split(String reg) : 주어진 글자로 잘라서 String[] 변환
 trim() : 문자열 앞뒤의 공백문제를 제거
+toUpperCase() : 모두 대문자로 변환
+
+// example
+"sdf".length() = 3
+"sdf".charAt(0)="s"
+"sdf".split("")=["s","d","f"];
+"sdf".substring(0,1) = "s"
+"sdf".toUpperCase() = "SDF"
+"sdf ".trim() = "sdf"
+"sdf".replaceAll("s", "t") = "tdf"
+"sdf".toCharArray() = ["s","d","f"]
+"sdf".equals("fff") = false
 ```
 
+### Collections
+```java
+import java.utils.Collections;
 
+Collections.sort(list); // 오름차순 정렬
+Collections.sort(list, Collections.reverseOrder()); // 오름차순 정렬
+Collections.rotate(list, 2); // 오른쪽으로 2칸 이동, [4,5,1,2,3]
+Collections.swap(list 0, 2); // index간 교환 [1,5,4,2,3]
+Collections.replaceAll(list, 2, 1); // [1,5,4,1,3]
+if(Collections.disjoint(list, newList)) System.out.println("공통요소가 없으면 true");
+int index = Collections.binarySearch(list, 3); // 5
+
+```
+
+### ArrayList
+```java
+import java.utils.ArrayList;
+
+ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(1,2,3,4,5));
+arrayList.add(5); //[5]
+arrayList.add(3); //[5,3]
+arrayList.set(0, 7); //[7,3]
+arrayList.remove(0); //[3]
+
+if(arrayList.contains(3)) System.out.println("포함되면 출력");
+int index = arrayList.indexOf(3);
+
+```
+
+### Math
+```java
+import java.lang.Math;
+
+System.out.println(Math.abs(-10)); // 절대값
+System.out.println(Math.max(10,100)); // 100
+System.out.println(Math.min(10,-10)); // -10
+System.out.println((int)(Math.random() * 10)); // 0~9 난수
+
+```
+
+### HashMap
+```java
+HashMap<String, Integer> map1 = new HashMap<>();
+HashMap<String, Integer> map2 = new HashMap<>();
+
+if(map1.isEmpty()) System.out.println("map이 비어있음");
+
+map1.put("key2", 1);
+map1.put("key3", 3);
+map2.put("key11", 55); 
+map2.put("key22", 11);
+map2.put("key33", 33);
+map1.putAll(map2);
+map1.remove("key3"); 
+map1.get("key1"); // 5
+if(map1.containsKey("key3")); // false
+if(map1.containsValue(55); // true
+
+Set<String> keys = map1.keySet();
+Collection<Integer> values = map1.values();
+
+map1.replace("key22", 44);
+if(map1.replace("key22", 44, 55)); // true
+if(map1.replace("key22", 11, 66)); // false
+
+```
+
+---
+
+### skils
+ICN SFO ATL ICN ATL SFO"
+ICN ATL SFO ATL ICN SFO"
+```java
+//답들 중 가장 알파벳순이 빠른 배열들로 정렬
+Collections.sort(answers); 
+//가장 빠른 배열을 뽑아서 String형 배열로 만듬
+String[] answer = answers.get(0).split(" ");    
+```
 
 ---
 
