@@ -29,7 +29,7 @@ i want to solve all problem in many languages
 - [InsertionSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestInsertionSort.java)
 
 ### + [Queue](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestQueue.java)
-`Queue는 FIFO(First In First Out) 구조의 자료구조`
+`Queue는 FIFO(First In First Out) 구조의 자료구조`   
 Queue는 interface이기떄문에, new로 생성하지못한다   
 offer, poll, peek 사용을 권장한다.   
 (add,remove,element를 쓴다면 try,catch 해야한다)   
