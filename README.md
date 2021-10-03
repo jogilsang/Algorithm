@@ -7,12 +7,16 @@ i want to solve all problem in many languages
 ---
 
 ## INDEX
- - [Sort](#+%20Sort)
- - [Queue](#+%20Queue)
- - [Stack](#+%20Stack)
- - [bruteforce](#+%20bruteforce)
- - [Graphe(Tree,DFS,BFS)](#+%20Graphe(Tree,DFS,BFS))
- - [DP](#+%20DP)
+ - [IsPrime](#isPrime)
+ - [Sort](#sort)
+ - [Queue](#queue)
+ - [Stack](#stack)
+ - [Bruteforce](#bruteforce)
+    - [순열(Permutation)](#permutation)
+    - [조합(Combination)](#combination)
+    - [멱집합(PowerSet)](#powerset)
+ - [Graphe(Tree,DFS,BFS)](#graphe(Tree,DFS,BFS))
+ - [DP](#+%20dp)
 
 - [Syntax](#syntax)
     - [Array](#array)
@@ -29,7 +33,37 @@ i want to solve all problem in many languages
 
 ---
 
-### + Sort
+### isPrime
+```java
+    /**
+    *
+    * 소수 판별하기
+    *
+    * @param n : 정수
+    * @return true : 소수인경우
+    *         false : 소수가 아닌경우
+    *
+    */
+    
+    public boolean isPrime(int n) {
+        
+        int sqrt = (int)Math.sqrt(n);
+        
+        // 2는 짝수이므로 true
+        if(n == 2) {return true;}
+        // 1이거나 2로 나눠지면, false
+        if(n==1 || n % 2 == 0) {return false;}
+        // 제곱근까지 나눠지면,false
+        for(int i = 3 ; i < sqrt; i += 2) {
+            if( n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+```
+
+### sort
 - [BaseSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/BaseSort.java)
 - [BubbleSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestBubbleSort.java)
 - [MergeSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestMergeSort.java)
@@ -38,7 +72,7 @@ i want to solve all problem in many languages
 - [SelectionSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestSelectionSort.java)
 - [InsertionSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestInsertionSort.java)
 
-### + [Queue](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestQueue.java)
+### [queue](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestQueue.java)
 `Queue는 FIFO(First In First Out) 구조의 자료구조`   
 Queue는 interface이기떄문에, new로 생성하지못한다   
 offer, poll, peek 사용을 권장한다.   
@@ -60,7 +94,7 @@ remove(), poll(): 제거 - O(logn)
 element(), peek() : 제거 없이 읽기 - O(1)
 size() : 크기 - O(1)
 ```
-### + [Stack](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestStack.java)
+### [stack](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestStack.java)
 `Stack : LIFO(Last In First Out) 구조의 자료구조`
 - [Stack 정렬하기](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestStackSort.java)
 
@@ -75,8 +109,85 @@ Stack<Integer> stack = new Stack<>();
 비었는지 검사 : empty()
 ```
 
-### + bruteforce
-### + Graphe(Tree,DFS,BFS)
+### bruteforce
+#### permutation
+`순열 : 순서가 있도록 모든 경우의 수를 뽑아내는 것 => n! / (n-r)!`   
+`EX : {1,2,3}과 {3,2,1}은 다른 것`
+```java
+    public static void main(String[] args) {
+        int n = 3;
+        int[] arr = {1, 2, 3};
+        int[] output = new int[n];
+        boolean[] visited = new boolean[n];
+
+        perm(arr, output, visited, 0, n, 3);
+    }
+
+    // 순열
+    public static void perm(int[] arr, int[] output, boolean[] visited, int depth, int n, int r) {
+
+        if(depth == r) {
+            print(output);
+            return ;
+        }
+
+        for(int i = 0 ; i < n ; i++) {
+            if(!visited[i]){
+                visited[i] = true;
+                output[depth] = arr[i];
+                perm(arr,output,visited,depth + 1 ,n ,r);
+                visited[i] = false;
+            }
+        }
+
+    }
+```
+참조 :   
+- [부분집합_재귀함수_순열 구하기 (JAVA)](https://codevang.tistory.com/298)
+
+#### combination
+`조합 : 순열과 달리 순서가 필요없어서 중복을 허용하지 않는 것 => n! / r! * (n-r)!`   
+`EX : {1,2,3}과 {3,2,1}은 같은 것`
+```java
+
+    public static void main(String[] args) {
+        int n = 3;
+        int[] arr = {1, 2, 3};
+        int[] output = new int[n];
+        boolean[] visited = new boolean[n];
+
+        comb1(arr, visited, 0, 3);
+    }
+
+    // 조합
+    // exec : comb1(arr, visited, 0, 3);
+    // 백트래킹
+    public static void combination(int[] arr, boolean[] visited, int start, int n, int r) {
+
+        if(r == 0 ) {
+            print(arr,visited,n);
+            return ;
+        }
+
+        for(int i = start ; i < n ; i++) {
+            visited[i] = true;
+            combination(arr,visited,i+1,n , r-1);
+            visited[i] = false;
+        }
+
+    }
+```
+참조 :   
+- [부분집합_재귀함수_조합 구하기 (JAVA)](https://codevang.tistory.com/297)
+
+#### powerset
+`멱집합`
+```java
+```
+참조 :
+- [부분집합_재귀함수_멱집합 구하기 (JAVA)](https://codevang.tistory.com/291)
+
+### graphe(Tree,DFS,BFS)
 
 > - [코딩테스트 연습 깊이/너비 우선 탐색(DFS/BFS) 타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)   
 
@@ -85,7 +196,7 @@ Stack<Integer> stack = new Stack<>();
 - [InPrePostOrder.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestInPrePostOrder.java)
 - [DFSBFS.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestDFSBFS.java)
 - [DFSBFS_array.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestDFSBFS_array.java)
-### + DP
+### dp
 
 ### syntax
 ### array
@@ -102,15 +213,15 @@ Arrays.sort(array);
 // 배열 원소 탐색, 비교
 boolean result = Arrays.stream(intArr)
         .allMatch(a -> a%2 == 0);
-System.out.println("2의 배수? " + result);
+System.out.println("2의 배수? " result);
 
 result = Arrays.stream(intArr)
         .anyMatch(a -> a%3 == 0);
-System.out.println("3의 배수가 하나라도 있나? " + result);
+System.out.println("3의 배수가 하나라도 있나? " result);
 
 result = Arrays.stream(intArr)
         .noneMatch(a -> a%3 == 0);
-System.out.println("3의 배수가 없나? " + result);
+System.out.println("3의 배수가 없나? " result);
 
 // 2차원 배열, 첫번째 행 기준 오름차순 정렬
         int[][] users = new int[a][2];     
@@ -357,8 +468,8 @@ PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOr
 ```
 
 ### skills
-ICN SFO ATL ICN ATL SFO"
-ICN ATL SFO ATL ICN SFO"
+ICN SFO ATL ICN ATL SFO"    
+ICN ATL SFO ATL ICN SFO"   
 ```java
 //답들 중 가장 알파벳순이 빠른 배열들로 정렬
 Collections.sort(answers); 
@@ -366,6 +477,13 @@ Collections.sort(answers);
 String[] answer = answers.get(0).split(" ");    
 ```
 
+["3", "30", "1"] -> 3303 -> o   
+["30", "3", "1"] -> 3031 -> x
+```java
+// 숫자를 담은 문자열 배열을 내림차순으로 얻는방법
+// 가장 큰 수를 구할 수 있음
+Collections.sort(strList, (a,b)->(b+a).compareTo(a+b));
+```
 ---
 
 ### Reference
