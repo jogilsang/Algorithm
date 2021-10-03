@@ -11,6 +11,8 @@ public class perm {
         boolean[] visited = new boolean[n];
 
         perm(arr, output, visited, 0, n, 3);
+
+        comb1(arr, visited, 0, 3);
     }
     /**
      * dfs를 이용한 순열
@@ -24,6 +26,7 @@ public class perm {
      * @return
      */
 
+    // 순열
     public static void perm(int[] arr, int[] output, boolean[] visited, int depth, int n, int r) {
 
         if(depth == r) {
@@ -38,6 +41,23 @@ public class perm {
                 perm(arr,output,visited,depth + 1 ,n ,r);
                 visited[i] = false;
             }
+        }
+
+    }
+
+    // 조합
+    // 백트래킹
+    public static void combination(int[] arr, boolean[] visited, int start, int n, int r) {
+
+        if(r == 0 ) {
+            print(arr,visited,n);
+            return ;
+        }
+
+        for(int i = start ; i < n ; i++) {
+            visited[i] = true;
+            combination(arr,visited,i+1,n , r-1);
+            visited[i] = false;
         }
 
     }
