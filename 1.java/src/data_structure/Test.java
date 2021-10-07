@@ -4,6 +4,20 @@ import java.util.LinkedList;
 
 public class Test {
 
+
+    public static void combi(int[] arr. boolean[] visited, int start, int n , int r)
+    {
+        if (r == 0) {
+            print(arr,visited,n);
+            return;
+        }
+        for(int i = start ; i < n;i++) {
+            visited[i] = true;
+            combi(arr,visited,i+1,n,r-1);
+            visited[i] = false;
+        }
+    }
+
     class Queue<T> {
         class Node<T> {
             T data;

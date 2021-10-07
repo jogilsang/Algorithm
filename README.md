@@ -27,6 +27,7 @@ i want to solve all problem in many languages
     - [HashMap](#hashMap)
     - [HashSet](#hashSet)
     - [PriorityQueue](#priorityQueue)
+    - [Comparator](#comparator)
     - [Conversion](#conversion)
 - [Input](#input)
 - [Skills](#skills)
@@ -215,11 +216,11 @@ boolean result = Arrays.stream(intArr)
         .allMatch(a -> a%2 == 0);
 System.out.println("2의 배수? " result);
 
-result = Arrays.stream(intArr)
+boolean result = Arrays.stream(intArr)
         .anyMatch(a -> a%3 == 0);
 System.out.println("3의 배수가 하나라도 있나? " result);
 
-result = Arrays.stream(intArr)
+boolean result = Arrays.stream(intArr)
         .noneMatch(a -> a%3 == 0);
 System.out.println("3의 배수가 없나? " result);
 
@@ -235,6 +236,8 @@ System.out.println("3의 배수가 없나? " result);
             }
         });
 
+Arrays.sort(a, Collections.reverseOrder());
+int index = Arrays.binarySearch(arr, "asdfasf");
 ```
 ---
 
@@ -260,6 +263,12 @@ toUpperCase() : 모두 대문자로 변환
 "sdf".replaceAll("s", "t") = "tdf"
 "sdf".toCharArray() = ["s","d","f"]
 "sdf".equals("fff") = false
+
+StringBuffer sb = new StringBuffer();
+sb.append("hello");
+sb.append(" ");
+sb.append("world");
+System.out.println(sb.toString());
 
 ```
 
@@ -314,6 +323,12 @@ Collections.reverse(arrayList);
 // 가장 낮은거에서 높은곳으로, 오름차순 정렬(ascending)
 Collections.sort(arrayList);
 
+// 배열복사
+int[] data = new int[100];
+int[] oldData = data;
+data = new int[data.length * 2];
+System.arraycopy(oldData,0,data,0, oldData.length);
+
 ```
 
 ### math
@@ -346,7 +361,10 @@ HashSet<Integer> hashSet = new HashSet<>();
 ```java
 // example
 HashMap<String, Integer> map1 = new HashMap<>();
-HashMap<String, Integer> map2 = new HashMap<>();
+// key의 sort 순서
+TreeMap<String, Integer> map2 = new TreeMap<>();
+// put했던 순서
+LinkedHashMap<String, Integer> map3 = new LinkedHashMap<>();
 
 if(map1.isEmpty()) System.out.println("map이 비어있음");
 
@@ -377,12 +395,19 @@ arrayInteger = hashMap.values().toArray(); // returns an array of values
 arrayString = keys.toArray(); // returns an array of keys
 arrayInteger = values.toArray(); // returns an array of values
 
+hm.put(key, hm.getOrDefault(key, 0) + 1);
+
 // 해시맵 순환(해시맵 반복)
        HashMap<String,Integer> hashMap = new HashMap(); 
 
-       for( Map.Entry<String, Integer> elem : hashMap.entrySet() ){
-          String key = elem.getKey();  
-          int value = elem.getValue();
+        for( Map.Entry<String, Integer> elem : hashMap.entrySet() ){
+            String key = elem.getKey();  
+            int value = elem.getValue();
+        }
+
+       for(String key : hashMap.keySet()) {
+           System.out.print(key));
+           System.out.print(hashmap.get(key));
        }
 ```
 
@@ -394,6 +419,10 @@ import java.util.PriorityQueue;
 PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(); // 우선순위 낮은순
 PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder()); // 우선순위 높은순
 ```
+
+### comparator
+https://st-lab.tistory.com/112   
+https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html   
 
 ### conversion
 ```java
@@ -484,6 +513,22 @@ String[] answer = answers.get(0).split(" ");
 // 가장 큰 수를 구할 수 있음
 Collections.sort(strList, (a,b)->(b+a).compareTo(a+b));
 ```
+
+특정 정수를 잘라서 사용하고 싶을 때     
+```java
+// %10, /10
+while(value !=0 ){
+   remain = value % 10 ;
+   value /= 10;
+}
+```
+
+문자열의 substring을 배열에 적용하고싶다면
+```java
+String[] test = "asdfdsafadsfasdf";
+Arrays.copyOfRange(test, 0, 5);
+```
+
 ---
 
 ### Reference
