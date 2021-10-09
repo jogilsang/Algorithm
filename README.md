@@ -16,7 +16,7 @@ i want to solve all problem in many languages
     - [조합(Combination)](#combination)
     - [멱집합(PowerSet)](#powerset)
  - [Graphe(Tree,DFS,BFS)](#graphe(Tree,DFS,BFS))
- - [DP](#+%20dp)
+ - [DP](#dp)
 
 - [Syntax](#syntax)
     - [Array](#array)
@@ -200,7 +200,7 @@ Stack<Integer> stack = new Stack<>();
 ### dp
 
 ### syntax
-### array
+### [array](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/Arrays.html)
 ```java
 // char 배열선언하기
 int[] arr1 = new int[10];
@@ -241,7 +241,7 @@ int index = Arrays.binarySearch(arr, "asdfasf");
 ```
 ---
 
-### string
+### [string](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/lang/String.html)
 ```java
 length() : 문자열의 길이. array와 collection의 길이가 다다름
 equals(String s) : 다른 문자열과 같은지 비교
@@ -272,7 +272,7 @@ System.out.println(sb.toString());
 
 ```
 
-### collections
+### [collections](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/Collections.html)
 ```java
 import java.utils.Collections;
 
@@ -286,7 +286,7 @@ int index = Collections.binarySearch(list, 3); // 5
 
 ```
 
-### arrayList
+### [arrayList](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/ArrayList.html)
 `ArrayList : 배열을 사용해서 List를 구현한 클래스`
 `LinkedList : 노드를 연결하는 방식의 List를 구현한 클래스`
 ```java
@@ -331,7 +331,7 @@ System.arraycopy(oldData,0,data,0, oldData.length);
 
 ```
 
-### math
+### [math](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/lang/Math.html)
 ```java
 import java.lang.Math;
 
@@ -341,7 +341,7 @@ System.out.println(Math.min(10,-10)); // -10
 System.out.println((int)(Math.random() * 10)); // 0~9 난수
 
 ```
-### hashSet
+### [hashSet](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/HashSet.html)
 ```java
 // HashSet : Set 인터페이스를 구현한 Set 클래스
 import java.util.HashSet;
@@ -356,7 +356,7 @@ HashSet<Integer> hashSet = new HashSet<>();
         }
 ```
 
-### hashMap
+### [hashMap](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/HashMap.html)
 `HashMap : Map 인터페이스를 구현한 Map 클래스. key와 value로 구성된 Entry객체를 저장하는 구조의 자료구조`
 ```java
 // example
@@ -411,7 +411,7 @@ hm.put(key, hm.getOrDefault(key, 0) + 1);
        }
 ```
 
-### PriorityQueue
+### [PriorityQueue](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/PriorityQueue.html)
 `Heap을 이용하여 구현한 우선순위 큐`
 ```java
 import java.util.PriorityQueue;
@@ -420,7 +420,7 @@ PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(); // 우선순위 �
 PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder()); // 우선순위 높은순
 ```
 
-### comparator
+### [comparator](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/Comparator.html)
 https://st-lab.tistory.com/112   
 https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html   
 
