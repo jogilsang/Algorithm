@@ -4,7 +4,6 @@ import java.util.LinkedList;
 
 public class Test {
 
-
     public static void combi(int[] arr. boolean[] visited, int start, int n , int r)
     {
         if (r == 0) {

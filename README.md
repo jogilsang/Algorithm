@@ -18,6 +18,7 @@ i want to solve all problem in many languages
  - [Graphe(Tree,DFS,BFS)](#graphe(Tree,DFS,BFS))
  - [DP](#dp)
 
+- [Exception](#exception)
 - [Syntax](#syntax)
     - [Array](#array)
     - [String](#string)
@@ -199,6 +200,12 @@ Stack<Integer> stack = new Stack<>();
 - [DFSBFS_array.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestDFSBFS_array.java)
 ### dp
 
+### Exception
+```java
+// 제거할 것이 없을경우
+throw new RuntimeException("Noting to remove")
+```
+
 ### syntax
 ### [array](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/Arrays.html)
 ```java
@@ -346,6 +353,15 @@ System.out.println((int)(Math.random() * 10)); // 0~9 난수
 // HashSet : Set 인터페이스를 구현한 Set 클래스
 import java.util.HashSet;
 HashSet<Integer> hashSet = new HashSet<>();
+
+hashSet.add(5); // 5
+hashSet.add(3); // 5, 3
+hashSet.add(3); // 5, 3
+hashSet.add(3); // 5, 3
+hashSet.add(1); // 5, 3, 1
+
+if(hashSet.contains(1)) System.out.println("true");
+
 ```
 ```java
 // 해시셋 전체순환(해시셋 반복자)
