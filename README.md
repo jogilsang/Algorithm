@@ -427,13 +427,17 @@ hm.put(key, hm.getOrDefault(key, 0) + 1);
        }
 ```
 
-### [PriorityQueue](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/PriorityQueue.html)
-`Heap을 이용하여 구현한 우선순위 큐`
+### [priorityQueue](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/PriorityQueue.html)
+`Heap을 이용하여 구현한 우선순위 큐, O(nlogn)`
 ```java
 import java.util.PriorityQueue;
 
 PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(); // 우선순위 낮은순
 PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder()); // 우선순위 높은순
+
+priorityQueue.offer(5);
+priorityQueue.poll(); // 5
+
 ```
 
 ### [comparator](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/Comparator.html)
