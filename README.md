@@ -8,6 +8,7 @@ i want to solve all problem in many languages
 
 ## INDEX
  - [IsPrime](#isPrime)
+ - [BIT](#bit)
  - [Sort](#sort)
  - [Queue](#queue)
  - [Stack](#stack)
@@ -63,6 +64,59 @@ i want to solve all problem in many languages
         }
         return true;
     }
+```
+
+### bit
+`BIT 연산에는 산술시프트, 논리시프트 등이 있다`   
+
+>1011 + 0010 = 1101   
+1010 >> 1 = 0101   
+0010 * 0011 = 0110   
+0110 + 0011 = 1001   
+0110 ^ 0101 = 0011  (XOR)
+
+```java
+// 비트 확인하기
+int getBit(int num, int i) {
+
+    int mask = 1 << i ; // i만큼 시프트하면 i 번쨰 비트만 1인 수가 나옴
+    return (num & mask != 0) ? 1 : 0 ;
+
+}
+
+// 비트 채우기
+int setBit(int num, int i) {
+    // 1 << i = 000010000
+    // OR연산 : i번째 비트가 1이면 해당 숫자는 바뀌고, 그 외 숫자는 기존값과 동일
+    int mask = 1 << i ; // i만큼 시프트하면 i 번쨰 비트만 1인 수가 나옴
+    return num | mask;
+}
+
+// 비트 지우기
+int clearBit(int num, int i) {
+   // ~(1 << i) = 1111101111111
+   // AND연산 : i번째 비트가 0이면 해당 숫자는 0이되고, 그 외 숫자는 기존값과 동일 
+   int mask = ~(1 << i) ; // i만큼 시프트한걸 반전함. 다 1인데 i번쨰 비트만 0으로됨
+   return num & mask;
+}
+
+// 2의 제곱수 판별하기
+boolean isPowerOf2(int i) {
+    return (i & (i - 1)) == 0 ;
+}
+
+// 두 수가 비트가 몇개가 다른지 구하기
+int count(int a, int b) {
+        int diff = a^b;
+        int count = 0;
+
+        while(diff != 0 ) {
+            diff = diff & (diff-1);
+            count++;
+        }
+        return count ;
+}
+
 ```
 
 ### sort
