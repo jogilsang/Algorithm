@@ -313,6 +313,7 @@ replaceAll(String reg, String replacement) : 특정 문자열 모두 교체
 split(String reg) : 주어진 글자로 잘라서 String[] 변환, String <-> String[] 
 trim() : 문자열 앞뒤의 공백문제를 제거
 toUpperCase() : 모두 대문자로 변환
+String.valueOf(param) : 다른 자료형을 문자열로 변경
 
 // example
 "sdf".length() = 3
@@ -361,6 +362,7 @@ arrayList.add(5); //[5]
 arrayList.add(3); //[5,3]
 arrayList.set(0, 7); //[7,3]
 arrayList.remove(0); //[3]
+arrayList.size(); // 1
 
 if(arrayList.contains(3)) System.out.println("포함되면 출력");
 int index = arrayList.indexOf(3);
