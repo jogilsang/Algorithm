@@ -7,30 +7,32 @@ i want to solve all problem in many languages
 ---
 
 ## INDEX
- - [IsPrime](#isPrime)
- - [BIT](#bit)
- - [Sort](#sort)
- - [Queue](#queue)
- - [Stack](#stack)
- - [Bruteforce](#bruteforce)
-    - [순열(Permutation)](#permutation)
-    - [조합(Combination)](#combination)
-    - [멱집합(PowerSet)](#powerset)
- - [Graphe(Tree,DFS,BFS)](#graphe(Tree,DFS,BFS))
- - [DP](#dp)
-
-- [Exception](#exception)
-- [Syntax](#syntax)
+- [DataStructure](#datastructure)
     - [Array](#array)
-    - [String](#string)
-    - [Collections](#collections)
-    - [ArrayList](#arrayList)
-    - [Math](#math)
+    - [Stack](#stack)
+    - [Queue](#queue)
+    - [PriorityQueue](#priorityQueue)
+    - [LinkedList](#linkedList)
     - [HashMap](#hashMap)
     - [HashSet](#hashSet)
-    - [PriorityQueue](#priorityQueue)
+- [Algorithm](#algorithm)
+    - [Sorting](#sorting)
+    - [Search](#search)
+        - [Graphe(Tree,DFS,BFS)](#graphe(Tree,DFS,BFS))
+    - [Bruteforce](#bruteforce)
+        - [순열(Permutation)](#permutation)
+        - [조합(Combination)](#combination)
+        - [멱집합(PowerSet)](#powerset)
+    - [DP](#dp)
+- [Syntax](#syntax)
+    - [String](#string)
+    - [Collections](#collections)
+    - [IsPrime](#isPrime)
+    - [BIT](#bit)
     - [Comparator](#comparator)
     - [Conversion](#conversion)
+    - [Math](#math)
+- [Exception](#exception)
 - [Input](#input)
 - [Skills](#skills)
 
@@ -119,7 +121,7 @@ int count(int a, int b) {
 
 ```
 
-### sort
+### sorting
 - [BaseSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/BaseSort.java)
 - [BubbleSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestBubbleSort.java)
 - [MergeSort.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestMergeSort.java)
@@ -260,7 +262,7 @@ Stack<Integer> stack = new Stack<>();
 throw new RuntimeException("Noting to remove")
 ```
 
-### syntax
+### datastructure
 ### [array](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/Arrays.html)
 ```java
 // char 배열선언하기
@@ -348,7 +350,7 @@ int index = Collections.binarySearch(list, 3); // 5
 
 ```
 
-### [arrayList](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/ArrayList.html)
+### [linkedlist](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/ArrayList.html)
 `ArrayList : 배열을 사용해서 List를 구현한 클래스`
 `LinkedList : 노드를 연결하는 방식의 List를 구현한 클래스`
 ```java
