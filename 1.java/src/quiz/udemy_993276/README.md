@@ -21,7 +21,9 @@ https://www.udemy.com/course/draft/993276/learn
 - Single Linked list
     - udemy_7_1.java : Single Linked list 구현하기
     - udemy_7_2.java : Single Linked list 에서 중복 데이터 제거하기
+      (leetcode - 83. remove_duplicate_sortedlist)
     - udemy_7_3.java : Single linked list 뒤집기
+      (leetcode - 206. reverse_linked_list)
     - udemy_7_4.java : Single linked list 에서 뒤에서 k번쨰 원소를 구현한다.
 
 - stack

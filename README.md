@@ -25,6 +25,7 @@ i want to solve all problem in many languages
         - [멱집합(PowerSet)](#powerset)
     - [DP](#dp)
 - [Syntax](#syntax)
+    - [Integer](#integer)
     - [String](#string)
     - [Collections](#collections)
     - [IsPrime](#isPrime)
@@ -35,6 +36,7 @@ i want to solve all problem in many languages
 - [Exception](#exception)
 - [Input](#input)
 - [Skills](#skills)
+- [Comment]](#comment)
 
 ---
 
@@ -303,6 +305,13 @@ Arrays.sort(a, Collections.reverseOrder());
 int index = Arrays.binarySearch(arr, "asdfasf");
 ```
 ---
+
+### Integer
+```java
+// IntegerCache 클래스에서 ~128부터 127까지는 auto-boxing이 되도록 관리
+// Integer도 객체이기때문에, == 연산자가 아닌 intValue() 메소드를 사용해서 주소값이 아닌 실제 값을 비교해야한다.
+// source : https://meetup.toast.com/posts/185
+```
 
 ### [string](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/lang/String.html)
 ```java
@@ -605,6 +614,35 @@ while(value !=0 ){
 ```java
 String[] test = "asdfdsafadsfasdf";
 Arrays.copyOfRange(test, 0, 5);
+```
+
+
+### comment
+```java
+// Init
+/**
+ * Init
+ * @author
+ * @copyright
+ * @license
+ * @version
+ * @see
+ * @see
+ * @todo 
+ * @link 
+ * 
+ * Method
+ * @param
+ * @return
+ */
+
+/**
+ * 별(*)를 a번 반복한 문자열을 b번 반복한 뒤, 출력한다.
+ *
+ * @param {Int} a 별(*)를 반복하는 횟수(=StarRow.length)
+ * @param {Int} b 반복된 별(*)을 개행할 횟수
+ * @return {StringBuffer} StarSquare 출력 시, 별(*)이 a*b 로 구성된 문자열
+ */
 ```
 
 ---
