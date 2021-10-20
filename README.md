@@ -616,6 +616,17 @@ String[] test = "asdfdsafadsfasdf";
 Arrays.copyOfRange(test, 0, 5);
 ```
 
+문자열의 2진연산
+```java
+String a = "100";
+String b = "101";
+int aInt = Integer.parseInt(a, 2); 
+int bInt = Integer.parseInt(b, 2); 
+int sum = aInt + bInt; 
+
+return Integer.toBinaryString(sum);
+```
+
 
 ### comment
 ```java
