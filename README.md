@@ -275,6 +275,9 @@ char[] arr2 = "Good".toCharArray();
 int[] array = new int[]{1,2,5,4,3};
 Arrays.sort(array);
 
+// char을 int로 변환하기
+char c1 = '9';
+int i1 = c1 - '0'; // 57 - 48 = 9
 
 // 배열 원소 탐색, 비교
 boolean result = Arrays.stream(intArr)
@@ -614,6 +617,17 @@ while(value !=0 ){
 ```java
 String[] test = "asdfdsafadsfasdf";
 Arrays.copyOfRange(test, 0, 5);
+```
+
+문자열의 2진연산
+```java
+String a = "100";
+String b = "101";
+int aInt = Integer.parseInt(a, 2); 
+int bInt = Integer.parseInt(b, 2); 
+int sum = aInt + bInt; 
+
+return Integer.toBinaryString(sum);
 ```
 
 
