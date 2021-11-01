@@ -690,6 +690,12 @@ return Integer.toBinaryString(sum);
 - [project-euler](https://euler.synap.co.kr/)
 - [Codewars](https://www.codewars.com/)
 - [Leetcode](https://leetcode.com/)  
+    - 26. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+        - i번째랑 i+1번째랑 비교하는 것, 첨자를 1부터 사용하는 것
+    - 27. [Remove Element](https://leetcode.com/problems/remove-element/)
+        - 일치하지않을경우 첨자를 0으로 시작해서, 값을 넣음
+    - 28. [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+        - 일치하지않을경우 첨자를 0으로 시작해서, 값을 넣음
 - [HackerRank](https://www.hackerrank.com/)   
 - [Codility](https://www.codility.com/)   
 - [Udemy](https://www.udemy.com/)
