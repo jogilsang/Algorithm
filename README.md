@@ -24,6 +24,7 @@ i want to solve all problem in many languages
         - [조합(Combination)](#combination)
         - [멱집합(PowerSet)](#powerset)
     - [DP](#dp)
+    - [몬테카를로 알고리즘](#몬테카를로%20알고리즘)
 - [Syntax](#syntax)
     - [Integer](#integer)
     - [String](#string)
@@ -256,7 +257,24 @@ Stack<Integer> stack = new Stack<>();
 - [InPrePostOrder.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestInPrePostOrder.java)
 - [DFSBFS.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestDFSBFS.java)
 - [DFSBFS_array.java](https://github.com/jogilsang/Algorithm/blob/master/1.java/src/data_structure/TestDFSBFS_array.java)
+
 ### dp
+
+### 몬테카를로 알고리즘
+- WHAT  
+이름의 유래는 미국의 라스베가스같은 도박도시, 모나코의 몬테카를로에서 유래됬다
+무작위 난수를 무한히 생성해서 구하고자 하는 정보의 확률을 계산하는 알고리즘
+- WHY   
+현실에서 문제를 풀어내기위해 얻을 수 있는 데이터는 매우 적고 한정적이다.실제값에 근사하게 되는 구조   
+- HOW   
+단순한 모델에 대해서 수많은 케이스로 실험을 할경우 얻어지는 값이 실제값에 근사하게되는 구조이다
+    ```
+    몬테카를로 방법은 다양하지만 특정한 패턴을 따르는 경향이 있다.
+    1. 가능한 입력의 도메인을 정의한다.
+    2. 도메인에 대한 확률 분포에서 임의로 입력을 생성한다.
+    3. 입력에 대한 결정론적인 계산을 수행한다.
+    4. 결과를 집계한다.
+    ```
 
 ### Exception
 ```java
