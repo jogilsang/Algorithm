@@ -364,6 +364,8 @@ sb.append(" ");
 sb.append("world");
 System.out.println(sb.toString());
 
+Char c = 'a';
+String strC = String.valueOf(c);
 ```
 
 ### [collections](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/util/Collections.html)
