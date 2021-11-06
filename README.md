@@ -364,6 +364,7 @@ sb.append(" ");
 sb.append("world");
 System.out.println(sb.toString());
 
+// char -> String
 Char c = 'a';
 String strC = String.valueOf(c);
 ```
@@ -692,11 +693,15 @@ return Integer.toBinaryString(sum);
 - [project-euler](https://euler.synap.co.kr/)
 - [Codewars](https://www.codewars.com/)
 - [Leetcode](https://leetcode.com/)  
-    - 26. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+    - (14). [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix)
+        - 주어진 배열의 일치하는 접두사의 최대값 구하기
+            - key : 오름차순 정렬로 문자열의 최소길이값 구하기
+            - key : prefix의 최대값은 최소길이값
+    - (26). [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
         - i번째랑 i+1번째랑 비교하는 것, 첨자를 1부터 사용하는 것
-    - 27. [Remove Element](https://leetcode.com/problems/remove-element/)
+    - (27). [Remove Element](https://leetcode.com/problems/remove-element/)
         - 일치하지않을경우 첨자를 0으로 시작해서, 값을 넣음
-    - 28. [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+    - (28) [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
         - 일치하지않을경우 첨자를 0으로 시작해서, 값을 넣음
 - [HackerRank](https://www.hackerrank.com/)   
 - [Codility](https://www.codility.com/)   
