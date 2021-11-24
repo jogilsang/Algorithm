@@ -324,6 +324,9 @@ System.out.println("3의 배수가 없나? " result);
 
 Arrays.sort(a, Collections.reverseOrder());
 int index = Arrays.binarySearch(arr, "asdfasf");
+
+// Integer list int array
+int[] arr = list.stream().mapToInt(i -> i).toArray();
 ```
 ---
 
@@ -416,7 +419,7 @@ return answer;
 
 // arraylist 정렬, list 정렬, 리스트 정렬
 ArrayList<Integer> arrayList = new ArrayList<>();        
-// 가장 높은순것에서 아래로, 내림차순으로 정렬
+// 거꾸로 정렬
 Collections.reverse(arrayList);
 // 가장 낮은거에서 높은곳으로, 오름차순 정렬(ascending)
 Collections.sort(arrayList);
