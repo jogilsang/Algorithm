@@ -37,7 +37,7 @@ i want to solve all problem in many languages
 - [Exception](#exception)
 - [Input](#input)
 - [Skills](#skills)
-- [Comment]](#comment)
+- [COMMENT]](#comment)
 
 ---
 
