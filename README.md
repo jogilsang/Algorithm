@@ -33,7 +33,7 @@ i want to solve all problem in many languages
     - [BIT](#bit)
     - [Comparator](#comparator)
     - [Conversion](#conversion)
-    - [Math](#math)
+    - [MATH](#math)
 - [Exception](#exception)
 - [Input](#input)
 - [Skills](#skills)
