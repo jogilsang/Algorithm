@@ -1,0 +1,6 @@
+/* Write your PL/SQL query statement below */
+
+SELECT A.FIRSTNAME, A.LASTNAME, B.CITY, B.STATE
+  FROM PERSON A, ADDRESS B
+ WHERE A.PERSONID = B.PERSONID(+)
+
