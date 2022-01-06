@@ -27,7 +27,7 @@ i want to solve all problem in many languages
     - [몬테카를로 알고리즘](#몬테카를로%20알고리즘)
 - [Syntax](#syntax)
     - [Integer](#integer)
-    - [String](#string)
+    - [STRING](#string)
     - [Collections](#collections)
     - [IsPrime](#isPrime)
     - [BIT](#bit)
@@ -337,7 +337,8 @@ int[] arr = list.stream().mapToInt(i -> i).toArray();
 // source : https://meetup.toast.com/posts/185
 ```
 
-### [string](https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/lang/String.html)
+### string
+> https://devdocs.programmers.co.kr/references/java/docs/api/java.base/java/lang/String.html
 ```java
 length() : 문자열의 길이. array와 collection의 길이가 다다름
 equals(String s) : 다른 문자열과 같은지 비교
