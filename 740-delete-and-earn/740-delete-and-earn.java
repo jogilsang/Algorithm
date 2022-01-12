@@ -13,28 +13,20 @@ class Solution {
         int[] dp = new int[10001];
         int[] sum = new int[10001];
         
+        int maxIndex = Integer.MIN_VALUE;
         for(int num : nums){
+            if(num > maxIndex) maxIndex = num;
             dp[num]++;    
         }
         
         sum[0]=dp[0];
         sum[1]=dp[1];
         
-        for(int i=2 ; i < dp.length ; i++){
+        for(int i=2 ; i <= maxIndex ; i++){
             sum[i] = Math.max(sum[i-2] + dp[i]*i, sum[i-1]);
         }
         
-        int last = dp.length - 1;
-        return sum[last];
+        return sum[maxIndex];
         
     }
 }
-
-
-
-
-
-
-
-
-
