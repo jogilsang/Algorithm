@@ -9,6 +9,7 @@
 // [0,2]
 // [-2,3,-4]
 
+// https://www.programcreek.com/2014/03/leetcode-maximum-product-subarray-java/
 class Solution {
 public int maxProduct(int[] nums) {
     int[] max = new int[nums.length];
