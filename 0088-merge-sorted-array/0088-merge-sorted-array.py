@@ -7,13 +7,9 @@ class Solution:
         # 3. 최종배열을 정렬한다
         """
 
-        # if m == 0:
-        #     nums1[:] = []
-
         nums1[:] = nums1[:m]
+        nums2[:] = nums2[:n]
 
-        if n > 0:
-            for num in nums2[:n]:
-                nums1.append(num)
+        nums1[:] = nums1[:] + nums2[:]
 
         nums1.sort()
