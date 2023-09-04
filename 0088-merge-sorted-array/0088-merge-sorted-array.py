@@ -6,12 +6,11 @@ class Solution:
         # 2. 0이 아닌것들을 합친다
         # 3. 최종배열을 정렬한다
         """
-        nums3 = nums1[:]
-        nums1[:] = []
 
-        if m > 0:
-            for num in nums3[:m]:
-                nums1.append(num)
+        # if m == 0:
+        #     nums1[:] = []
+
+        nums1[:] = nums1[:m]
 
         if n > 0:
             for num in nums2[:n]:
